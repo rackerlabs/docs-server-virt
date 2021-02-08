@@ -1,5 +1,7 @@
 .. _distributed_resource_scheduler:
 
+2.3.1
+
 ==============================
 Distributed resource scheduler
 ==============================

@@ -1,5 +1,7 @@
 .. _understanding_vmware_vsphere_clusters:
 
+2.3
+
 =====================================
 Understanding VMware vSphere clusters
 =====================================

@@ -1,5 +1,7 @@
 .. _what_is_a_virtual_machine:
 
+2.1
+
 ==============================
 What is a Virtual Machine
 ==============================

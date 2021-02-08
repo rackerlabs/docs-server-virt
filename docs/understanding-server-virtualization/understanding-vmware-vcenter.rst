@@ -1,5 +1,7 @@
 .. _understanding-vmware-vcenter:
 
+2.4
+
 ============================
 Understanding VMware vCenter
 ============================

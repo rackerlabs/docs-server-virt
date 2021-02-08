@@ -1,5 +1,7 @@
 .. _high_availability:
 
+2.3.2
+
 =================
 High availability
 =================
