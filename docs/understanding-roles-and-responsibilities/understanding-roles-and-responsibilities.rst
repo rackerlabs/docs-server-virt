@@ -80,7 +80,7 @@ managing them. For some tasks, you and Rackspace Technology share responsibility
 | access        |             |             |             | Customer    |             |             |
 +---------------+-------------+-------------+-------------+-------------+-------------+-------------+
 | **Change management**                                                                             |
-+---------------+---------------------------+-------------+-------------+-------------+-------------+
++---------------+-------------+-------------+-------------+-------------+-------------+-------------+
 | Patching      | Rackspace   | Rackspace   | Rackspace   | Rackspace   | Customer    | Customer    |
 |               | coordinated | coordinated | coordinated | coordinated |             | unless      |
 |               | with        | with        | with        | with        |             | application |           
