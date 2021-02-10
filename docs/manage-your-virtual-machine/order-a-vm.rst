@@ -91,9 +91,10 @@ prefix to the VM name.
 desired option for backups.
 
 10.	If you agree with and accept our terms and conditions, click **Confirm**.
-11.	To order multiple VMs with the same configuration, complete the following steps:
-    a.	Select **Order multiple Virtual Machines with a similar configuration** and click 
-    **Next Step**.
+11.	To order multiple VMs with the same configuration, complete the following 
+steps:
+    a.	Select **Order multiple Virtual Machines with a similar configuration** 
+    and click **Next Step**.
     b.	Click **Add Virtual Machine Copies**.
     c.	Choose between **Exact Copies** or **Modified Copies**. If you select 
     Modified copies, you can now make changes to these additional VMs.
@@ -108,6 +109,8 @@ another option or speak to the Virtualization team for assistance.
 
 Placing an order sends a ticket to your Rackspace VMware Support team 
 specialist. To track the progress of your order, see Track a VM order.[link]
+
+
 
 
 
