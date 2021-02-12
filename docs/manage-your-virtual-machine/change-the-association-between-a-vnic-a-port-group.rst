@@ -1,4 +1,4 @@
-.. _change-the-association-between-the-vnic-a-port-group:
+.. _change-the-association-between-a-vnic-a-port-group:
 
 9.10.3
 

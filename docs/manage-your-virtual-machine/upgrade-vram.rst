@@ -1,24 +1,31 @@
 .. _upgrade-vram:
 
-9.10.1
+9.12.1
 
 ============
 Upgrade vRAM
 ============
 
-If required by your software application, you can add a vNIC to a VM.
+If your VM consistently consumes all RAM resources and VM performance 
+suffers, the VM might benefit from additional vRAM.
 
-You cannot add a vNIC yourself. You must create a ticket and request that 
-we add the vNIC for you.
+Consider the following guidelines when you decide to add vRAM: 
 
-To add a vNIC, create a Rackspace Technology ticket that includes the 
-following information:
+* Be careful when adding vRAM to your VM. The RAM resources ultimately 
+  come from the physical hardware, and if the hypervisor is already under 
+  pressure for RAM, adding RAM might not solve the problem.
+* Only allocate as much vRAM as the VM needs.
+* When the vRAM allocation approaches or exceeds the amount of 
+  physical RAM, the ESXi server invokes memory reclamation techniques, 
+  such as ballooning and swapping. Memory reclamation technologies enable 
+  slight over-allocation but can adversely affect the performance of the 
+  target VM and all other VMs on the hypervisor.
 
-* The name of the VM.
-* The port group name to which the vNIC should connect.
-  
-Unless you specify otherwise, we configure the vNIC as a VMXNET3 interface. 
-For more information about vNIC types, refer to Understanding vNICs.[link]
+If you need help determining how much vRAM to add, contact your 
+Rackspace Technology account team.
+
+To upgrade vRAM, refer to Resize a VM[link].
+
 
 
 
