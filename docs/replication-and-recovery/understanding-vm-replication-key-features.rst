@@ -1,6 +1,6 @@
 .. _understanding-vm-replication-key-features:
 
-11.1
+11.1.1
 
 =========================================
 Understanding VM replication key features
