@@ -1,6 +1,5 @@
 .. _understanding_networking:
 
-2.7
 
 ========================
 Understanding Networking
@@ -18,7 +17,6 @@ and their relationships to each other:
 
 .. _understanding_vswitches:
 
-2.7.1
 
 Understanding vSwitches
 -----------------------
@@ -42,7 +40,6 @@ connection for your VMs).
 
 .. _understanding_uplinks:
 
-2.7.2
 
 Understanding uplinks
 ---------------------
@@ -55,7 +52,7 @@ physical network ports on the hypervisor.
 
 .. _understanding_port_groups:
 
-2.7.3
+
 
 Understanding port groups
 -------------------------
@@ -71,13 +68,17 @@ One port group can serve multiple vNICs.
 
 .. _understanding_vnics:
 
-2.7.4
 
 Understanding vNICs
 -------------------
 
 A vNIC, or virtual network interface card, is a piece of the VM’s virtual
-hardware. A vNIC provides an interface for the OS and connects to a port group.
+hardware. A vNIC provides an interface for the OS and connects to a 
+port group.
 
 There are multiple types of vNICs, such as E1000 or E1000E. We recommend
 using VMNXET3 for all VMs.
+
+
+
+__________________________________
