@@ -30,5 +30,3 @@ to a snapshot, in which case the changes in the delta files are discarded.
 
 **Note:** Do not use a snapshot as a VM backup. VM replication is a
 better alternative for making and restoring backups.
-
-__________________________________
