@@ -41,6 +41,3 @@ migration operation.
 combines vMotion and storage vMotion. vMotion without Shared Storage is
 most commonly used for migration between two standalone hypervisors.
 
-
-__________________________________
-
