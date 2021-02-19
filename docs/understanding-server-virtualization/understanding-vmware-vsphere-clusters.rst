@@ -83,4 +83,3 @@ fails, the vSphere HA feature automatically restarts the VMs on
 remaining hosts.For the HA feature to function as intended, the
 storage and networking must be consistent across all hosts in the
 vSphere cluster.
-_______________________________________
