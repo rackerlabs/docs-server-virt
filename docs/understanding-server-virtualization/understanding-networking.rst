@@ -79,6 +79,3 @@ port group.
 There are multiple types of vNICs, such as E1000 or E1000E. We recommend
 using VMNXET3 for all VMs.
 
-
-
-__________________________________
