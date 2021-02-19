@@ -17,6 +17,6 @@ virtual CPU (vCPU), virtual RAM (vRAM), virtual network interface card
 (vNIC), and virtual disks (vDisk) to complete operations. Because a
 single physical device can include multiple VMs, using VMs helps you to
 optimize hardware resources.
-_____________________________________
+
 
 
