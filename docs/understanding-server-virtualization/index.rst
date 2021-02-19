@@ -1,6 +1,6 @@
 .. _understanding_server_virtualization:
 
-2
+
 
 ===================================
 Understanding Server Virtualization
@@ -27,9 +27,9 @@ This chapter explains the following virtualization on VMware concepts:
    what-is-a-virtual-machine.rst
    understanding-hypervisors.rst
    understanding-vmware-vsphere-clusters.rst
+   understanding-vmware-vcenter.rst
    understanding-vcpu.rst
    understanding-vram.rst
-   understanding-vcpu.rst
    understanding-networking.rst
    understanding-storage.rst
    understanding-snapshots.rst
