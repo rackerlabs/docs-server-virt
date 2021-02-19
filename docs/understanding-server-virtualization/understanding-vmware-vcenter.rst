@@ -15,5 +15,3 @@ Virtualization offering does not provide you access to VMware vCenter
 or a vSphere Client. If you require access to VMware vCenter, you can 
 consider the VMware Server Virtualization Isolated vCenter deployment 
 model.
-
-____________________________
