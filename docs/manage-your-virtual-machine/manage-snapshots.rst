@@ -6,11 +6,11 @@ Manage snapshots
 
 A VMware snapshot is a copy of the VM’s disk file (VMDK) at a given point
 in time. Snapshots provide a changelog for the virtual disk, and you can
-use them to restore a VM to a particular point in time when a failure or 
+use them to restore a VM to a particular point in time when a failure or
 system error occurs.
 
 Snapshot files that grow can affect VMs on the hypervisor. For this reason,
-we recommend keeping a snapshot for no longer than two days. After this 
+we recommend keeping a snapshot for no longer than two days. After this
 time, you can delete the snapshot or revert to the snapshot and
 original disks.
 
@@ -28,7 +28,7 @@ Create a Snapshot
 
 
 Create a snapshot when you want the option to roll back to it later.
-Typically, you create snapshots before you upgrade an application or 
+Typically, you create snapshots before you upgrade an application or
 patch an OS.
 
 Before you take a snapshot, ensure that you have space on the datastore(s)
@@ -48,7 +48,7 @@ the data in the VM contribute to the continuous growth of the snapshot.
 .. _delete-a-snapshot:
 
 
-Delete a Snapshot
+Delete a snapshot
 -----------------
 
 
@@ -80,7 +80,7 @@ revert to the snapshot and original disks.
 .. _revert-to-a-snapshot:
 
 
-Revert to a Snapshot
+Revert to a snapshot
 --------------------
 
 
@@ -89,9 +89,9 @@ As a result, you lose any changes that you made after you created
 the snapshot. This includes all data written to the VM during this time.
 
 The VM reverts to the state it was when you took the snapshot. This means
-that if you took the snapshot in a powered-off state, the VM reverts to a 
+that if you took the snapshot in a powered-off state, the VM reverts to a
 powered-off state. The VM also reverts to a powered-off state if
-the snapshot does not include the memory. Otherwise, the VM continues 
+the snapshot does not include the memory. Otherwise, the VM continues
 to run.
 
 **Note:**You cannot reverse a revert snapshot action.
@@ -101,8 +101,8 @@ to run.
 2. On the list of virtual machines, select the virtual machine for which
    you want to revert a snapshot.
    This action opens the virtual machine's details.
-3. Scroll to the **Snapshot** section, click the gear icon next to the snapshot
-   you want to revert, and click **Revert to Snapshot**.
+3. Scroll to the **Snapshot** section, click the gear icon next to the 
+   snapshot you want to revert, and click **Revert to Snapshot**.
 4. To confirm that you want to revert the snapshot, click **Revert**.
 
 
