@@ -38,6 +38,8 @@ connection for your VMs).
 * A vSwitch that is connected to a dedicated backup network.
 
 
+
+
 .. _understanding_uplinks:
 
 
@@ -48,6 +50,7 @@ An uplink is the physical interface between the hypervisor and the
 physical switch. An uplink is assigned to only one vSwitch. You can
 refer to an uplink as *vmnicX*, with X being a sequential number of a
 physical network ports on the hypervisor.
+
 
 
 .. _understanding_port_groups:
@@ -73,7 +76,7 @@ Understanding vNICs
 -------------------
 
 A vNIC, or virtual network interface card, is a piece of the VM’s virtual
-hardware. A vNIC provides an interface for the OS and connects to a 
+hardware. A vNIC provides an interface for the OS and connects to a
 port group.
 
 There are multiple types of vNICs, such as E1000 or E1000E. We recommend

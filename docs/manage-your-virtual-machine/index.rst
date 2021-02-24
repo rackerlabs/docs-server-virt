@@ -1,6 +1,7 @@
 .. _manage-your-virtual-machine:
 
 
+
 ===========================
 Manage your virtual machine
 ===========================
@@ -17,23 +18,23 @@ expedite your request.
 
 This chapter contains the following sections:
 
+
 .. toctree::
    :maxdepth: 2
 
-
-  order-a-vm.rst
-  track-a-vm-order.rst
-  delete-a-vm.rst
-  power-a-vm-on-and-off.rst
-  reboot-a-vm.rst
-  reimage-a-vm.rst
-  resize-a-vm.rst
-  manage-snapshots.rst
-  manage-vdisk.rst
-  manage-vnics.rst
-  manage-vcpu.rst
-  manage-vram.rst
-  move-a-vm-between-two-hosts-or-two-datastores.rst
-  upgrade-a-vm.rst
-  rename-a-vm.rst
-  review-plan-capacity-of-virtual-machines.rst
+   order-a-vm.rst
+   track-a-vm-order.rst
+   delete-a-vm.rst
+   power-a-vm-on-and-off.rst
+   reboot-a-vm.rst
+   reimage-a-vm.rst
+   resize-a-vm.rst
+   manage-snaphots.rst
+   manage-vdisk.rst
+   manage-vnics.rst
+   manage-vcpu.rst
+   manage-vram.rst
+   move-a-vm-between-two-hosts-or-two-datastores.rst
+   upgrade-a-vm.rst
+   rename-a-vm.rst
+   review-plan-capacity-of-virtual-machines.rst

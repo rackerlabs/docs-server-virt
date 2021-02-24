@@ -9,9 +9,9 @@ There are two forms of VM migration to consider when working with
 Server Virtualization. The first form of migration is an initial
 migration that occurs when you become a Rackspace Technology customer
 and migrate an existing workload to Server Virtualization.
-See Migrate a workload to VMware Server Virtualization :ref:`migrate-
-a-workload-to-vmware-server-virtualization`for more information about
-migrating a workload from another environment to Server Virtualization.
+See :ref:`migrate-a-workload-to-vmware-server-virtualization` for
+more information about migrating a workload from another environment
+to Server Virtualization.
 
 **Note:** Don’t use vMotion to migrate external workloads to
 Server Virtualization or migrate a VM from RPC-V to Server Virtualization.
@@ -31,12 +31,11 @@ need to move:
   automatically to balance the load between ESXi hosts.
 
 * **Storage vMotion:** Storage vMotion migrates a VM from one VMFS
-  datastore to another. The target datastore must have sufficient space.
-  Storage vMotion migration can take a long time to complete, so your
-  system might experience performance degradation during the
-  migration operation.
+datastore to another. The target datastore must have sufficient space.
+Storage vMotion migration can take a long time to complete, so your
+system might experience performance degradation during the
+migration operation.
 
 * **vMotion without Shared Storage:** vMotion without Shared Storage
   combines vMotion and storage vMotion. vMotion without Shared Storage is
   most commonly used for migration between two standalone hypervisors.
-

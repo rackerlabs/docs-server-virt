@@ -6,17 +6,17 @@ Datastore Overhead requirements
 ===============================
 
 We require that your system have a certain percentage of each VMFS
-datastore free at all times. The datastore overhead percentage depends on
-the total capacity of each datastore.
+datastore free at all times. The datastore overhead percentage depends
+on the total capacity of each datastore.
 
 Refer to the following minimum recommended datastore overhead values:
 
 * For datastores with capacity up to 2048 GB, the overhead is 15%.
-* For datastores with capacity between 2049 GB and 4096 GB, the overhead 
-  is 10%.
+* For datastores with capacity between 2049 GB and 4096 GB,
+  the overhead is 10%.
 * For datastores with capacity greater than 4096 GB, the overhead is 7%.
-* If VMs on the datastore use VM Replication or VM Recovery, the overhead
-  is 15%.
+* If VMs on the datastore use VM Replication or VM Recovery,
+  the overhead is 15%.
 
 **Note:** If the datastore is subject to multiple criteria listed above,
 the criterion with the highest percentage takes priority.
@@ -28,8 +28,7 @@ the criterion with the highest percentage takes priority.
 
 
 Why is datastore overhead required?
-
------------------------------------
+___________________________________
 
 
 We require datastore overhead for the following reasons:
@@ -54,9 +53,9 @@ We require datastore overhead for the following reasons:
 * A VM might not power on due to insufficient space on the datastore.
 
 * All VM log files are stored within the VM container folder on the
-datastore. A typical log file is a few MB in size; however,
-log files can grow to a few GB in size depending on VM activity and
-DRS migrations.
+  datastore. A typical log file is a few MB in size; however,
+  log files can grow to a few GB in size depending on VM activity and
+  DRS migrations.
 
 * VM Recovery requires additional space because the VM takes snapshots
   frequently, potentially on multiple VMs at the same time.
