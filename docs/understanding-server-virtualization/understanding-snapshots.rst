@@ -6,10 +6,10 @@ Understanding snapshots
 =======================
 
 A snapshot represents a point-in-time state of the VM. Snapshots are
-useful if you suspect a short-term rollback might be needed, such as 
+useful if you suspect a short-term rollback might be needed, such as
 before starting a software upgrade on your VM.
 
-When you take a VM snapshot, a delta file is created for each vDisk, 
+When you take a VM snapshot, a delta file is created for each vDisk,
 and all changes moving forward are written to the delta files. This
 operation happens in the background and is not exposed to the Guest OS.
 
@@ -19,7 +19,7 @@ in unexpected downtime. Monitor the free space on your datastores and
 delete all unneeded snapshots.
 
 **Caution:** As snapshot files grow, it can affect all virtual machines
-on the hypervisor. For this reason, we recommend keeping a snapshot for 
+on the hypervisor. For this reason, we recommend keeping a snapshot for
 no longer than two days.
 
 Depending on the circumstances, you can delete snapshots within hours
