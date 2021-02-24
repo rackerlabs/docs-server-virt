@@ -1,6 +1,7 @@
 .. _reimage-a-vm:
 
 
+
 ============
 Reimage a VM
 ============
@@ -23,24 +24,10 @@ for several hours while it is reimaged.
    you want to reimage.
    This action opens the virtual machine's details.
 3. Click **Actions > Re-image VM**.
-4. Enter any special instructions to include in the support ticket
+4. Enter any special instructions to include in the support ticket.
+
 5. Click **Request Re-Image**.
-   This action creates a ticket that you can use to track your request.
+This action creates a ticket that you can use to track your request.
 
 **Note**: You can also click the cog icon ( ) next to the VM on the
 **Virtual Machine list** to access the **Actions** drop-down menu.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

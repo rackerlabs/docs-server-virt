@@ -24,6 +24,4 @@ consult your account team.
   Services team to design, plan, and migrate existing workloads into
   VMware Server Virtualization environments. Refer to `Professional Services
   <https://www.rackspace.com/professional-services/migrations/>`_
-  For more information on Professional Services engagements.
-  
-
+  for more information on Professional Services engagements.
