@@ -15,7 +15,7 @@ operation happens in the background and is not exposed to the Guest OS.
 
 The delta files can grow rapidly and without your awareness. If the
 delta files fill the datastore, your VM might pause, which can result
-in unexpected downtime. Monitor the free space on your datastores and 
+in unexpected downtime. Monitor the free space on your datastores and
 delete all unneeded snapshots.
 
 **Caution:** As snapshot files grow, it can affect all virtual machines

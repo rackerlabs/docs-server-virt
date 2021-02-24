@@ -15,6 +15,7 @@ Technology enables a Distributed Resource Scheduler and high availability.
 
 
 
+
 .. _distributed_resource_scheduler:
 
 
@@ -23,8 +24,8 @@ Distributed resource scheduler
 
 Distributed Resource Scheduler (DRS) monitors the workload between
 hypervisors, and you can configure it to move VMs between ESXi hosts
-and address any imbalance automatically. Refer to Move a VM between
-two hosts or two datastores[link] for more information about vMotion
+and address any imbalance automatically. Refer to :ref:`move-a-vm-between
+-two-hosts-or-two-datastores`for more information about vMotion
 migration.
 
 DRS operates in the following three modes:
@@ -50,19 +51,19 @@ Consider the following DRS rules categories:
 * **VM-VM Anti-affinity:** Keep VMs separate and prevent them from running
     on the same host. If you have two web servers running on the same host,
     and the host fails, both web servers go down.
-* **VM-Host rules:** Host rules apply to a group of VMs and a group of hosts.
-   Each group must include at least one member. Use the following options to
-    define a VM-Host rule:
+* **VM-Host rules:** Host rules apply to a group of VMs and a group
+  of hosts. Each group must include at least one member. Use the
+  following options to define a VM-Host rule:
 
       * A group of VMs should run on a group of hosts. This approach limits
       some VMs to run only on a set of hosts. You might want this option due
       to a specific hardware (for example, greater capability) advantage on
-      those hosts. However, the rule is ignored when you place eligible hosts
-      in maintenance mode and during an HA restart.
+      those hosts. However, the rule is ignored when you place
+      eligible hosts in maintenance mode and during an HA restart.
       *	A group of VMs must run on a group of hosts. VMs do not
-      automatically migrate when you place all eligible hosts in maintenance
-      mode. In addition, if no hosts in the defined group are available, HA
-      might not restart the VMs.
+      automatically migrate when you place all eligible hosts in
+      maintenance mode. In addition, if no hosts in the defined group are
+      available, HA might not restart the VMs.
       * A group of VMs should not run on a group of hosts. This rule is
       similar to the first VM-host rule, except that this rule defines the
       group of hosts that some VMs should avoid. For example, VMs are not
@@ -83,3 +84,4 @@ fails, the vSphere HA feature automatically restarts the VMs on
 remaining hosts.For the HA feature to function as intended, the
 storage and networking must be consistent across all hosts in the
 vSphere cluster.
+

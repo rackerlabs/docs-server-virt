@@ -27,9 +27,9 @@ datastore space reserved. The datastore is formatted on top of a LUN.
 
 .. image:: Picture2.png
 
-* **Raw Device Mapping:** Raw Device Mapping (RDM) is a type of storage 
+* **Raw Device Mapping:** Raw Device Mapping (RDM) is a type of storage
 configuration where a LUN is mounted to the VM directly, bypassing the
-datastore layer. Bypassing the datastore layer means that the Guest OS 
+datastore layer. Bypassing the datastore layer means that the Guest OS
 in the VM can issue Small Computer System Interface (SCSI) commands
 directly to the LUN. This configuration is most commonly used with
 Microsoft clustering. However, using RDMs means you cannot use features
