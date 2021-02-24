@@ -10,10 +10,28 @@ You can allocate physical RAM on the hypervisor to the VMs as vRAM.
 
 Refer to the following topics to manage vRAM on your VM:
 
-* Upgrade vRAM
-* Downgrade vRAM
-* Set vRAM reservation
-* Change vSwap file location
+- :ref:`Upgrade vRAM <upgrade-vram>`
+- :ref:`Downgrade vRAM <downgrade-vram>`
+- :ref:`Set vRAM reservation <set-vram-reservation>`
+- :ref:`Change vSwap file location <change-vswap-file-location>`
+
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
+   self
+   upgrade-vram.rst
+   downgrade-vram.rst
+   set-vram-reservation.rst
+   change-vswap-file-location.rst
+   
+
+
+
+
+
+
 
 
 .. _upgrade-vram:
@@ -79,7 +97,7 @@ you are running the application in a virtualized environment.
 
 Reserving vRAM guarantees that physical RAM resources are available
 for the VM, which means that the VM does not compete for resources with
-other VMs. You should only reserve vRAM when required because reserving 
+other VMs. You should only reserve vRAM when required because reserving
 RAM resources means that other VMs on the hypervisor cannot request those
 same resources. Failure to get resources they need might adversely
 impact those other VMs.

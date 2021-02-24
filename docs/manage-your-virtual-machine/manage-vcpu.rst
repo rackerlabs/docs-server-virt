@@ -16,12 +16,31 @@ a Rackspace Technology support ticket that requests a vCPU consultation.
 
 This section includes the following topics:
 
-* Add vCPU
-* Remove vCPU
-* Adjust the number of virtual sockets and the number of cores per socket
-* Set vCPU reservation
+- :ref:`Add vCPU <add-vcpu>`
+- :ref:`Remove vCPU <remove-vcpu>`
+- :ref:`Adjust the number of virtual sockets and the number of cores 
+  per socket <adjust-the-number-of-virtual-sockets-and-the-number-
+  of-cores-per-socket>`
+- :ref:`Set vCPU reservation <set-vcpu-reservation>`
 
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
+   self
+   add-vcpu.rst
+   remove-vcpu.rst
+   adjust-the-number-of-virtual-sockets-and-the-number-
+   of-cores-per-socket.rst
+   set-vcpu-reservation.rst
+   
+
+
+
+
+
+   
 .. _add-vcpu:
 
 

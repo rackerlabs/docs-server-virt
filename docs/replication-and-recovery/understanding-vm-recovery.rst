@@ -15,11 +15,25 @@ It provides 24-hour RPO and 12-hour RTO.
 
 This section contains the following topics:
 
-* Understanding VM recovery key features
-* Understanding VM recovery architecture
-* Understanding VM recovery roles and responsibilities
-* Understanding VM recovery technical requirements and limitations
+- :ref:`Understanding VM recovery key features
+  <understanding-vm-recovery-key-features>`
+- :ref:`Understanding VM recovery architecture
+  <understanding-vm-recovery-architecture>`
+- :ref:`Understanding VM recovery roles and responsibilities
+  <understanding-vm-recovery-roles-and-responsibilities>`
+- :ref:`Understanding VM recovery technical requirements and limitations
+  <understanding-vm-recovery-technical-requirements-and-limitations>`
 
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
+   self
+   understanding-vm-recovery-key-features.rst
+   understanding-vm-recovery-architecture.rst
+   understanding-vm-recovery-roles-and-responsibilities.rst
+   understanding-vm-recovery-technical-requirements-and-limitations.rst
 
 
 
@@ -103,7 +117,7 @@ customer and Rackspace Technology.
 | Category      | Customer                               | Rackspace Technology                             |                                                     |
 +===============+========================================+==================================================+
 | Backup        | Defines the backup and recovery        | Implements the appropriate hypervisor proxies,   |    
-| delivery of   | requirements for VMs and applications. | VM configuration and application backup agents.  |
+|               | requirements for VMs and applications. | VM configuration and application backup agents.  |
 +---------------+----------------------------------------+--------------------------------------------------+
 | Monitoring    |                                        | Monitors backup operations.                      |    
 +---------------+----------------------------------------+--------------------------------------------------+
@@ -138,7 +152,8 @@ limitations:
   15% free space. VM backup jobs are stopped if less than 10% datastore
   space is available.
 * Backup and restore times depend on the VM(s) size. VMs larger in size
-  and smaller file counts experience a more extended backup and recovery time.
+  and smaller file counts experience a more extended backup and recovery
+  time.
 * We use client-based data de-duplication in order to reduce backup times.
   
 **Note:** If your VMs do not meet these requirements, then consider VM

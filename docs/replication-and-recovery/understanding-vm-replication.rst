@@ -16,9 +16,34 @@ remote replication.
 
 This section includes the following topics:
 
+- :ref:`Understanding VM replication key features <understanding-vm-
+  replication-key-features>`
+- :ref:`Understanding VM replication architecture <understanding-vm-
+  replication-architecture>`
+- :ref:`Understanding how VM replication protection works 
+  <understanding-how-vm-replication-protection-works>`
+- :ref:`Understanding Remote Edition Initial Synchronization
+  <understanding-remote-edition-initial-synchronization>`
+- :ref:`Understanding Remote Edition Continuous Replication
+  <understanding-remote-edition-continuous-replication>`
+- :ref:`Understanding VPGs <understanding-vpgs>`
+- :ref:`Understanding test operations
+  <understanding-test-operations>`
+- :ref:`Understanding failover operations
+  <understanding-failover-operations>`
+- :ref:`Understanding VM replication roles and responsibilities
+  <understanding-vm-replication-roles-and-responsibilities>`
+
+
+
+
+
 .. toctree::
    :maxdepth: 2
+   :hidden:
 
+    
+   self
    understanding-vm-replication-key-features.rst
    understanding-vm-replication-architecture.rst
    understanding-how-vm-replication-protection-works.rst
@@ -29,15 +54,6 @@ This section includes the following topics:
    understanding-failover-operations.rst
    understanding-vm-replication-roles-and-responsibilities.rst
 
-* Understanding VM replication key features
-* Understanding VM replication architecture
-* Understanding how VM replication protection works
-* Understanding Remote Edition Initial Synchronization
-* Understanding Remote Edition Continuous Replication
-* Understanding VPGs
-* Understanding test operations
-* Understanding failover operations
-* Understanding VM replication roles and responsibilities
   
 **Note:** You cannot configure VMs that have one of the following
 characteristics for a source VM:
@@ -98,7 +114,7 @@ _________________________________________
 
 
 The following diagram illustrates the VM Replication architecture,
-including the following key components, as defined by the Zerto IT 
+including the following key components, as defined by the Zerto IT
 Resilience Platform documentation:
 
 **Zerto Virtual Manager (ZVM)**: The ZVM manages everything required
@@ -127,15 +143,15 @@ VRA intercepts every write to a protected VM and sends a copy
 of the write, asynchronously, to the target site. The target site adds
 the write to a journal managed by the VRA. Each protected VM has its
 own journal. By default, the Zerto Journal is located on the Target VM
-recovery datastore. Each journal can expand to a size specified in the 
+recovery datastore. Each journal can expand to a size specified in the
 VPG definition and automatically shrinks when the expanded capacity
 is not needed.
 
-VMware Server Virtualization
-Local and Remote VM Replication
-Architecture
 
 .. image:: picture1.png
+
+
+
 
 
 
@@ -157,7 +173,7 @@ to process the write.
 
 On the target site, Zerto writes the write to a journal managed by
 the Zerto Virtual Replication Appliance (VRA). Each protected
-VM has a unique journal. Every few seconds, the system writes 
+VM has a unique journal. Every few seconds, the system writes
 a checkpoint to each journal. These checkpoints ensure write-order
 fidelity and crash-consistency to each checkpoint. During recovery,
 one of the crash-consistent checkpoints is selected and recovered
@@ -169,10 +185,10 @@ the images of the protected volumes for these target VMs.
 During a failover, you can specify that you want to recover
 the source VMs in the VPG by using the last checkpoint.
 Alternatively, you can specify an earlier checkpoint,
-in which case the system synchronizes the recovery of 
+in which case the system synchronizes the recovery of
 the mirror images under the VRA to the chosen checkpoint.
-Thus, you can recover the environment to the point before 
-any corruption and ignore later corrupted journal writes. 
+Thus, you can recover the environment to the point before
+any corruption and ignore later corrupted journal writes.
 The cause of the corruption, such as a crash in the source site
 or a ransomware attack, does not affect the recovery process.
 

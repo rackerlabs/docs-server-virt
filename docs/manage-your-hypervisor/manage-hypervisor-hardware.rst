@@ -12,9 +12,22 @@ applications, your hypervisor might require additional RAM and CPU.
 In addition, we can perform routine maintenance on the hypervisor chassis.
 
 This section includes the following topics:
-* Add RAM to a hypervisor
-* Upgrade CPU in a hypervisor
-* Migrate to a new hypervisor chassis
+
+- :ref:`Add RAM to a hypervisor <add-ram-to-a-hypervisor>`
+- :ref:`Upgrade CPU in a hypervisor <upgrade-cpu-in-a-hypervisor>`
+- :ref:`Migrate to a new hypervisor chassis <migrate-to-a-new-hypervisor-chassis>`
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
+   self
+   add-ram-to-a-hypervisor.rst
+   upgrade-cpu-in-a-hypervisor.rst
+   migrate-to-a-new-hypervisor-chassis.rst
+
+
+
 
 
 
@@ -33,8 +46,11 @@ Adding RAM results in increased cost for each hypervisor. When you add
 RAM to a hypervisor, you must also add RAM to all hypervisors in
 the cluster, if applicable.
 
-To add RAM to your hypervisor, contact your Rackspace Technology 
+To add RAM to your hypervisor, contact your Rackspace Technology
 account team. We undertake this work in a planned maintenance window.
+
+
+
 
 
 .. _upgrade-cpu-in-a-hypervisor:

@@ -13,7 +13,7 @@ some VMs. The upgrade might also negatively impact VM performance.
 Because system performance can be negatively impacted, we usually
 upgrade ESXi hosts during a planned maintenance window.
 
-**Note:** Because we test ESXi releases internally and make 
+**Note:** Because we test ESXi releases internally and make
 updates to our automation and infrastructure, we might not offer
 the latest major ESXi release until we complete testing with our
 infrastructure.

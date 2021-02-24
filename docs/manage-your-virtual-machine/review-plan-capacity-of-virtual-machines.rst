@@ -12,11 +12,19 @@ which can help you optimize your environment and plan for expansion.
 
 This section includes the following topics:
 
-* What is capacity planning?
-* Review performance metrics of VM
-* View VM configurations
+- :ref:`What is capacity planning? <what-is-capacity-planning>`
+- :ref:`Review performance metrics of VM <review-performance-metrics-of-vm>`
+- :ref:`View VM configurations <view-vm-configurations>`
 
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
+   self
+   what-is-capacity-planning.rst
+   review-performance-metrics-of-vm.rst
+   view-vm-configurations.rst
 
 
 
@@ -106,9 +114,9 @@ To view the configuration of a VM, complete the following steps:
 
 1. Log in to the
    `Rackspace Technology Customer Portal<https://login.rackspace.com/>`_
-2. In the **Products** drop-down menu, select **VMware Server Virtualization**.
+2. In the **Products** drop-down menu, select
+   **VMware Server Virtualization**.
 3. Select the VM for which you want to see the configuration.
-
 A page displays the details of the VM.
 
 
