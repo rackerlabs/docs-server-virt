@@ -19,17 +19,17 @@ Before resizing a virtual machine, note that over-allocating resources can
 negatively impact the performance of the VM and other VMs within your
 environment.
 
-**Caution:** Increasing vRAM consumes the same amount of datastore space which 
+**Caution:** Increasing vRAM consumes the same amount of datastore space which
 in rare cases, can lead to downtime.
 
-1. Log in to the Rackspace Technology Customer Portal and click 
+1. Log in to the Rackspace Technology Customer Portal and click
    **Products > VMware Server Virtualization**.
-2. On the list of virtual machines, select the virtual machine you want 
+2. On the list of virtual machines, select the virtual machine you want
    to resize.
-This action opens the virtual machine's details.
+   This action opens the virtual machine's details.
 3. **Click Actions > Resize VM**.
-This action automatically shuts down your VM, applies your change, and
-powers the VM back on.
+   This action automatically shuts down your VM, applies your change, and
+   powers the VM back on.
 
 4. Choose the new number of vCPUs and amount of vRAM.
 5. Click **Resize Virtual Machine**.

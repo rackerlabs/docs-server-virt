@@ -1,6 +1,7 @@
 .. _understanding_roles_and_responsibilities:
 
 
+
 ========================================
 Understanding roles and responsibilities
 ========================================
@@ -9,12 +10,12 @@ Your VMware Server Virtualization environments can comprise both
 supported and unsupported Guest OSs.
 
 * **Supported OS:** A Guest OS that is supported by Rackspace.
-* **Unsupported OS:** A Guest OS that is not supported by Rackspace and
-  that requires you to assume some responsibility for that managed VM.
+* **Unsupported OS:** A Guest OS that is not supported by Rackspace
+  and that requires you to assume some responsibility for that managed VM.
 
 The following table lists all services and the party responsible for
-managing them. For some tasks, you and Rackspace Technology share 
-responsibility.
+managing them. For some tasks, you and Rackspace Technology
+share responsibility.
 
 +---------------+-----------------------------------------------------------------------------------+
 |               | Layer                                                                             |
@@ -26,7 +27,7 @@ responsibility.
 +===============+=============+=============+=============+=============+=============+=============+
 | **Provisioning**                                                                                  |
 +---------------+-------------+-------------+-------------+-------------+-------------+-------------+
-| Manage        | Rackspace   | N/A         | N/A         | N/A         | N/A         | N/A         | 
+| Manage        | Rackspace   | N/A         | N/A         | N/A         | N/A         | N/A         |
 | delivery of   |             |             |             |             |             |             |
 | equipment     |             |             |             |             |             |             |
 | (as needed)   |             |             |             |             |             |             |
@@ -83,17 +84,17 @@ responsibility.
 +---------------+-------------+-------------+-------------+-------------+-------------+-------------+
 | Patching      | Rackspace   | Rackspace   | Rackspace   | Rackspace   | Customer    | Customer    |
 |               | coordinated | coordinated | coordinated | coordinated |             | unless      |
-|               | with        | with        | with        | with        |             | application |           
+|               | with        | with        | with        | with        |             | application |
 |               | Customer    | Customer    | Customer    | Customer    |             | services    |
 |               |             |             |             |             |             | purchased   |
 +---------------+-------------+-------------+-------------+-------------+-------------+-------------+
 | Hardware      | Rackspace   | N/A         | Rackspace   | Rackspace   | Customer    | Customer    |
 | changes,      | per         |             | per         | per         |             |             |
-| including     | request     |             | request     | request     |             |             |           
+| including     | request     |             | request     | request     |             |             |
 | software      | (Fee)       |             | (Fee)       | (Fee)       |             |             |
 +---------------+-------------+-------------+-------------+-------------+-------------+-------------+
 | Password      | Rackspace   | N/A         | N/A         | Rackspace   | N/A         | N/A         |
-| rotation for  |             |             |             |             |             |             |     
+| rotation for  |             |             |             |             |             |             |
 | Rackspace     |             |             |             |             |             |             |
 | credentials   |             |             |             |             |             |             |
 +---------------+-------------+-------------+-------------+-------------+-------------+-------------+
@@ -137,7 +138,7 @@ responsibility.
 | **Exports**                                                                                       |
 +---------------+-------------+-------------+-------------+-------------+-------------+-------------+
 | Export VMs    | N/A         | N/A         | Rackspace   | N/A         | N/A         | N/A         |
-|               |             |             | Reasonable   |             |             |             |
+|               |             |             | Reasonable  |             |             |             |
 |               |             |             | endeavor    |             |             |             |
 |               |             |             | plus fee    |             |             |             |
 +---------------+-------------+-------------+-------------+-------------+-------------+-------------+

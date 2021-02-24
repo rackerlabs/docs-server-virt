@@ -1,19 +1,18 @@
 .. _track-a-vm-order:
 
-9.2
 
 ================
 Track a VM order
 ================
 
-If you have ordered a VM or requested that we reimage or delete a VM, you 
+If you have ordered a VM or requested that we reimage or delete a VM, you
 can track your order through the Rackspace Technology Customer Portal.
 
-1.	Log in to the Rackspace Technology Customer Portal and click 
+1.	Log in to the Rackspace Technology Customer Portal and click
 **Products > VMware Server Virtualization**.
 2.	Click the **Track Orders** tab.
 
-If you have any concerns or questions about an action you have requested, 
+If you have any concerns or questions about an action you have requested,
 contact your Rackspace Technology account team.
 
 

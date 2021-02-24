@@ -1,14 +1,17 @@
 .. _log-in-to-the-rackspace-technology-customer-portal:
 
 
+
 ==================================================
 Log in to the Rackspace Technology Customer Portal
 ==================================================
 
 After we build your environment to your specifications, you receive
-an email that includes your username and password to
-the Rackspace Technology Customer Portal,
-`MyRackspace Portal <https://login.rackspace.com/login/>`_ .
+an email that includes your username and password to the
+Rackspace Technology Customer Portal `(MyRackspace Portal)
+<https://login.rackspace.com/>`_.
+
+
 
 To get started, we recommend reviewing the contents of the
 `Customer Portal Onboarding Guide

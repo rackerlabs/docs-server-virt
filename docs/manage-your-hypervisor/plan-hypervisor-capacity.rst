@@ -60,9 +60,9 @@ and review the contents of the **Storage** section.
 .. _view-hypervisor-configurations:
 
 
-==============================
+
 View hypervisor configurations
-==============================
+______________________________
 
 To determine the number of disks, resources, and storage attached to a
 hypervisor, complete the following steps:
