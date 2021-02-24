@@ -82,8 +82,8 @@ revert to the snapshot and original disks.
    This action opens the virtual machine's details.
 3. Scroll to the Snapshot section, click the gear icon next to the snapshot
    you want to delete, and click **Delete Snapshot**.
-4. To confirm that you want to delete the snapshot, click
-   **Delete Snapshot again**.
+4. To confirm that you want to delete the snapshot,
+   click **Delete Snapshot again**.
 
 
 
