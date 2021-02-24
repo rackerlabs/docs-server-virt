@@ -1,19 +1,20 @@
 .. _understanding_roles_and_responsibilities:
 
-4
 
 ========================================
 Understanding roles and responsibilities
 ========================================
 
-Your VMware Server Virtualization environments can comprise both 
+Your VMware Server Virtualization environments can comprise both
 supported and unsupported Guest OSs.
 
 * **Supported OS:** A Guest OS that is supported by Rackspace.
-* **Unsupported OS:** A Guest OS that is not supported by Rackspace and that requires you to assume some responsibility for that managed VM.
+* **Unsupported OS:** A Guest OS that is not supported by Rackspace and
+  that requires you to assume some responsibility for that managed VM.
 
-The following table lists all services and the party responsible for 
-managing them. For some tasks, you and Rackspace Technology share responsibility.
+The following table lists all services and the party responsible for
+managing them. For some tasks, you and Rackspace Technology share 
+responsibility.
 
 +---------------+-----------------------------------------------------------------------------------+
 |               | Layer                                                                             |

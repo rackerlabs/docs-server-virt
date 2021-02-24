@@ -23,8 +23,8 @@ Distributed resource scheduler
 
 Distributed Resource Scheduler (DRS) monitors the workload between
 hypervisors, and you can configure it to move VMs between ESXi hosts
-and address any imbalance automatically. Refer to Move a VM between
-two hosts or two datastores[link] for more information about vMotion
+and address any imbalance automatically. Refer to :ref:`move-a-vm-between
+-two-hosts-or-two-datastores` for more information about vMotion
 migration.
 
 DRS operates in the following three modes:
