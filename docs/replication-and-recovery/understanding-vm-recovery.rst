@@ -29,7 +29,7 @@ This section contains the following topics:
    :maxdepth: 2
    :hidden:
 
-   self
+   
    understanding-vm-recovery-key-features.rst
    understanding-vm-recovery-architecture.rst
    understanding-vm-recovery-roles-and-responsibilities.rst
