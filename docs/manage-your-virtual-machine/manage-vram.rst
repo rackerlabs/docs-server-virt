@@ -105,8 +105,8 @@ impact those other VMs.
 To reserve vRAM, open a Rackspace Technology ticket and provide the
 following information:
 
-* The VM name.
-* Optionally, the reservation value in GB/MB.
+* The VM name
+* Optionally, the reservation value in GB/MB
   
 To reserve 100% of the vRAM, you do not need to provide a reservation value.
 
