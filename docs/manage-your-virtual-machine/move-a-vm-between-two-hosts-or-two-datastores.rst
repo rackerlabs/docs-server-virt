@@ -36,7 +36,7 @@ This section includes the following topics:
    :maxdepth: 2
    :hidden:
 
-   self
+   
    migrate-a-vm-to-a-different-esxi-host-by-using-vmotion.rst
    move-a-vm-to-a-datastore-by-using-storage-vmotion.rst
    migrate-by-using-vmotion-without-shared-storage.rst
