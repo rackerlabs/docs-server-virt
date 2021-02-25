@@ -30,7 +30,7 @@ This chapter includes the following sections:
    :maxdepth: 2
    :hidden:
 
-   self
+   
    manage-vsphere-clusters.rst
    upgrade-esxi-version.rst
    manage-hypervisor-hardware.rst
