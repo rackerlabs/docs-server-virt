@@ -29,7 +29,7 @@ This section includes the following topics:
    :maxdepth: 2
    :hidden:
 
-   self
+   
    add-vdisk.rst
    delete-vdisk.rst
    detach-vdisk.rst
