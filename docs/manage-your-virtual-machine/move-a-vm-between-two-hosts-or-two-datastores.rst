@@ -23,9 +23,25 @@ environment.
 
 This section includes the following topics:
 
-* Migrate a VM to a different ESXi host by using vMotion
-* Move a VM to a datastore by using storage vMotion
-* Migrate by using vMotion without shared storage
+- :ref:`Migrate a VM to a different ESXi host by using vMotion <migrate-a-vm
+  -to-a-different-esxi-host-by-using-vmotion>`
+- :ref:`Move a VM to a datastore by using storage vMotion <move-a-vm-to-a-
+  datastore-by-using-storage-vmotion>`
+- :ref:`Migrate by using vMotion without shared storage <migrate-by-using
+  -vmotion-without-shared-storage>`
+
+
+
+  .. toctree::
+   :maxdepth: 2
+   :hidden:
+
+   
+   migrate-a-vm-to-a-different-esxi-host-by-using-vmotion.rst
+   move-a-vm-to-a-datastore-by-using-storage-vmotion.rst
+   migrate-by-using-vmotion-without-shared-storage.rst
+
+
 
 
 .. _migrate-a-vm-to-a-different-esxi-host-by-using-vmotion:
@@ -59,8 +75,8 @@ ESXi hosts in a cluster.
   Rackspace Technology ticket and request a consultation.
 
 Subject to a variety of conditions, you can complete vMotion either offline
-or online. At a minimum, both source and destination hosts must have access 
-to the shared datastore(s) where the VM’s vDisks are located. Open a ticket 
+or online. At a minimum, both source and destination hosts must have access
+to the shared datastore(s) where the VM’s vDisks are located. Open a ticket
 and ask us for a consultation so that we can advise you about what is
 possible based on your requirements.
 
@@ -79,7 +95,7 @@ the following information:
 
 
 
-.. _move_a_vm_to_a_datastore_by_using_storage_vMotion:
+.. _move-a_vm_to_a_datastore_by_using_storage_vMotion:
 
 
 
@@ -114,4 +130,42 @@ specify the following information:
 * The source and destination datastores.
 * A timeframe for the migration.
 
+
+
+
+
+
+.. _migrate-by-using-vmotion-without-shared-storage:
+
+
+
+
+Migrate by using vMotion without shared storage
+_______________________________________________
+
+
+
+For vMotion, the VM is located on a datastore that is accessible by
+both source and destination hosts. For storage vMotion, the hypervisor
+hosting the VM must have access to the source and destination datastore.
+
+*vMotion without Shared Storage* overcomes these constraints by migrating
+a VM to a different ESXi host and a different datastore simultaneously.
+vMotion without Shared Storage does not require shared objects.
+
+vMotion without Shared Storage is applicable when you want to:
+
+* Migrate a VM between two standalone hypervisors that only have
+  local storage available.
+* Migrate between two vSphere clusters where each cluster has a separate
+* set of shared datastores.
+
+The following diagram illustrates a vMotion without Shared Storage between
+two vSphere clusters. In this case,  a VM and associated vDisk migrate from
+one vSphere cluster with one set of shared datastores to another vSphere
+with a different set of shared datastores.
+
+
+
+.. image:: Picture6.png
 

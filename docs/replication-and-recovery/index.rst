@@ -8,19 +8,23 @@ Replication and recovery
 Rackspace Technology offers add-on options that help you recover your VMs,
 including:
 
-* Periodic VM backup
-* Continuous VM replication
+- Periodic VM backup
+- Continuous VM replication
+
+
   
 This chapter contains the following sections: 
 
-* Understanding VM replication
-* Understanding VM recovery
+- :ref:`Understanding VM replication <understanding-vm-replication>`
+- :ref:`Understanding VM recovery <understanding-vm-recovery>`
 
 This chapter includes the following sections:
 
 .. toctree::
    :maxdepth: 2
+   :hidden:
 
+   
    understanding-vm-replication.rst
    understanding-vm-recovey.rst
    

@@ -33,8 +33,8 @@ _____________________
 
 You can use the Rackspace Technology Customer Portal to see the ESXi
 hosts that form a part of a vSphere cluster. If you have multiple
-vSphere clusters, you can see all of the clusters. Understanding the ESXi
-hosts that comprise a vSphere cluster is useful when you ask us
+vSphere clusters, you can see all of the clusters. Understanding the 
+ESXi hosts that comprise a vSphere cluster is useful when you ask us
 to make changes to multiple ESXi hosts. Instead of providing us with
 he names of all hosts in the cluster, you can simply give us
 the vSphere cluster name.
@@ -93,7 +93,7 @@ ___________________________
 High availability (HA) is a feature that ensures system uptime to an
 agreed-upon level.
 
-VMware vSphere® High Availability monitors the ESXi host status, and 
+VMware vSphere® High Availability monitors the ESXi host status, and
 when a host fails, the vSphere HA feature automatically restarts
 the VMs on remaining hosts.
 
@@ -140,7 +140,7 @@ these shares and limits.
 Resource pools can sometimes produce undesired results. For example, if
 you define a high-performance resource pool and then add many VMs to
 that pool, the resources required by the VMs are higher than the proportion
-of shares or limits available to the pool. Despite your intention to create 
+of shares or limits available to the pool. Despite your intention to create
 a high-performance pool, the VMs in that pool might perform worse than VMs
 outside the pool.
 

@@ -34,5 +34,5 @@ in rare cases, can lead to downtime.
 4. Choose the new number of vCPUs and amount of vRAM.
 5. Click **Resize Virtual Machine**.
 
-When you click **Resize Virtual Machine**, the VM immediately powers off. 
+When you click **Resize Virtual Machine**, the VM immediately powers off.
 The reboot process takes approximately five minutes.

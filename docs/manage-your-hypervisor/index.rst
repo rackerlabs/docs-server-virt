@@ -17,9 +17,20 @@ your request.
 
 This chapter includes the following sections:
 
+- :ref:`Manage vSphere clusters <manage-vsphere-clusters>`
+- :ref:`Upgrade ESXi version <upgrade-esxi-version>`
+- :ref:`Manage hypervisor hardware <manage-hypervisor-hardware>`
+- :ref:`Manage hypervisor networking <manage-hypervisor-networking>`
+- :ref:`Manage hypervisor storage <manage-hypervisor-storage>`
+- :ref:`Plan hypervisor capacity <plan-hypervisor-capacity>`
+
+
+
 .. toctree::
    :maxdepth: 2
+   :hidden:
 
+   
    manage-vsphere-clusters.rst
    upgrade-esxi-version.rst
    manage-hypervisor-hardware.rst

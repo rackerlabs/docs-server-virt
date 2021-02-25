@@ -14,9 +14,25 @@ and uplinks.
 
 This section includes the following topics:
 
-* Add or remove a vSwitch
-* Manage port groups
-* Manage uplinks
+- :ref:`Add or remove a vSwitch <add-or-remove-a-vswitch>`
+- :ref:`Manage port groups <manage-port-groups>`
+- :ref:`Manage uplinks <manage-uplinks>`
+
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
+   
+   add-or-remove-a-vswitch.rst
+   manage-port-groups.rst
+   manage-uplinks.rst
+
+
+
+
+
+
 
 
 
@@ -48,7 +64,7 @@ Manage port groups
 ___________________
 
 
-A port group is a logical construct on the vSwitch to which vNICs can connect. 
+A port group is a logical construct on the vSwitch to which vNICs can connect.
 Refer to :ref:`understanding-port-groups` for more information about
 port groups.
 
@@ -57,7 +73,7 @@ We manage port groups for you, including:
 * Adding port groups
 * Removing port groups
 * Editing a VLAN ID
-* Renaming a port group.
+* Renaming a port group
   
 If you require us to take any of the preceding actions, open a
 Rackspace Technology ticket and indicate what action you want us to perform.

@@ -18,10 +18,35 @@ expedite your request.
 
 This chapter contains the following sections:
 
+- :ref:`Order a VM <order-a-vm>`
+- :ref:`Track a VM order <track-a-vm-order>`
+- :ref:`Delete a VM <delete-a-vm>`
+- :ref:`Power a VM on and off <power-a-VM-on-and-off>`
+- :ref:`Reboot a VM <reboot-a-vm>`
+- :ref:`Reimage a VM <reimage-a-vm>`
+- :ref:`Resize a VM <resize-a-vm>`
+- :ref:`Manage snapshots <manage-snapshots>`
+- :ref:`Manage vDisk <manage-vdisk>`
+- :ref:`Manage vNICs <manage-vnics>`
+- :ref:`Manage vCPU <manage-vcpu>`
+- :ref:`Manage vRAM <manage-vram>`
+- :ref:`Move a VM between two hosts or two datastores <move-a-vm
+  between-two-hosts-or-two-datastores>`
+- :ref:`Upgrade a VM <upgrade-a-vm>`
+- :ref:`Rename a VM <rename-a-vm>`
+- :ref:`Review plan capacity of virtual machines <review-plan
+  capacity-of-virtual-machines>`
+
+
+
+
+
 
 .. toctree::
    :maxdepth: 2
+   :hidden:
 
+   
    order-a-vm.rst
    track-a-vm-order.rst
    delete-a-vm.rst

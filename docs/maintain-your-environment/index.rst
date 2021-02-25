@@ -13,7 +13,7 @@ maintenance. These scheduled maintenances ensure that the following
 are available to the customer:
 
 * Reserved Rackspace Technology resources to complete the defined
-* tasks of the maintenance.
+  tasks of the maintenance.
 * Documented maintenance preparation and quality checks from all
   departments involved in the maintenance.
 * Defined length of maintenance to accomplish the defined tasks.

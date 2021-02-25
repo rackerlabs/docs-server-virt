@@ -18,8 +18,20 @@ To plan for ESXi capacity, consider the following questions:
 
 This section includes the following topics:
 
-* Review hypervisor performance metrics
-* View hypervisor configurations
+- :ref:`Review hypervisor performance metrics <review-hypervisor-
+  performance-metrics>`
+- :ref:`View hypervisor configurations <view-hypervisor-configurations>`
+
+
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
+   
+   review-hypervisor-performance-metrics.rst
+   view-hypervisor-configurations.rst
+   
 
 
 
@@ -40,9 +52,11 @@ Complete the following steps to view metrics in the
 Rackspace Technology Customer Portal:
 
 1. Log in to the
-  `Rackspace Technology Customer PortalCloud Control Panel <https://login.rackspace.com/>`_
+  `Rackspace Technology Customer PortalCloud Control Panel
+   <https://login.rackspace.com/>`_
 2. In the **Products** drop-down menu, select **VMware Server Virtualization**.
-3. Navigate to an ESXi hypervisor or a vSphere cluster for which you want to see the metrics.
+3. Navigate to an ESXi hypervisor or a vSphere cluster for which you want to
+   see the metrics.
 4. Scroll to the **Performance** section. In this section, you can:
     * Select the metric you want to see.
     * Change the time range you want to see.

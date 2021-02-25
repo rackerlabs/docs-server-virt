@@ -58,7 +58,7 @@ Complete the following steps to order a VM:
     **Note:** If you are unsure of which network to select, consult your
     internal team or contact your Rackspace Technology account team.
 
-    d.	For Windows OSs, select an Active Directory Domain.
+       d.	For Windows OSs, select an Active Directory Domain.
 
     **Note:** After you place the order, you cannot change your selection
     until we fulfill the order. If you are unsure of which domain

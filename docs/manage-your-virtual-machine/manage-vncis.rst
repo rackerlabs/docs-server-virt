@@ -19,11 +19,28 @@ can expedite your request.
 
 This section includes the following topics:
 
-•	Add a vNIC
-•	Remove a vNIC
-•	Change the association between a vNIC a port group
-•	Change vNIC type
-•	Connect or disconnect a vNIC
+- :ref:`Add a vNIC <add-a-vnic>`
+- :ref:`Remove a vNIC <remove-a-vnic>`
+- :ref:`Change the association between a vNIC a port group <change
+  -the-association-between-a-vnic-a-port-group>`
+- :ref:`Change vNIC type <change-vnic-type>`
+- :ref:`Connect or disconnect a vNIC <connect-or-disconnect-a-vnic>`
+
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
+   
+   add-a-vnic.rst
+   remove-a-vnic.rst
+   change-the-association-between-a-vnic-a-port-group.rst
+   change-vnic-type.rst
+   connect-or-disconnect-a-vnic.rst
+   
+
+
+
 
 
 .. _add-a-vnic:
@@ -85,10 +102,10 @@ __________________________________________________
 
 To connect a virtual network card to a different network segment, you can
 request that we change the association between a vNIC and a port group.
-Refer to :ref:`understanding-port-groups` for more information about port 
+Refer to :ref:`understanding-port-groups` for more information about port
 groups.
 
-You cannot change the association between a vNIC and port group yourself. 
+You cannot change the association between a vNIC and port group yourself.
 You must create a ticket and request that we change the association
 for you.
 

@@ -17,10 +17,21 @@ storage capacity.
 
 This section includes the following topics:
 
-* Expand LUNs
-* Shrink hypervisor storage
-* Expand VMFS datastore
-* Manage host bus adapters
+- :ref:`Expand LUNs <expand-luns>`
+- :ref:`Shrink hypervisor storage <shrink-hypervisor-storage>`
+- :ref:`Expand VMFS datastore <expand-vmfs-datastore>`
+- :ref:`Manage host bus adapters <manage-host-bus-adapters>`
+
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
+   
+   expand-luns.rst
+   shrink-hypervisor-storage.rst
+   expand-vmfs-datastore.rst
+   manage-host-bus-adapter.rst
   
 
 
@@ -71,7 +82,7 @@ For more information about datastore overhead requirements,
 refer to Datastore overhead requirements
 :ref:`datastore-overhead-requirements`.
 
-If you want us to expand a VMFS datastore, open a Rackspace Technology 
+If you want us to expand a VMFS datastore, open a Rackspace Technology
 ticket and provide the datastore name and the amount by which you want 
 to expand it.
 
