@@ -46,7 +46,7 @@ This chapter contains the following sections:
    :maxdepth: 2
    :hidden:
 
-   self
+   
    order-a-vm.rst
    track-a-vm-order.rst
    delete-a-vm.rst
