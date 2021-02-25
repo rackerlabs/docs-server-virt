@@ -21,7 +21,7 @@ This section includes the following topics:
    :maxdepth: 2
    :hidden:
 
-   self
+   
    what-is-capacity-planning.rst
    review-performance-metrics-of-vm.rst
    view-vm-configurations.rst
