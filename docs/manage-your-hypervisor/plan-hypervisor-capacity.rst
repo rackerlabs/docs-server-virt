@@ -28,7 +28,7 @@ This section includes the following topics:
    :maxdepth: 2
    :hidden:
 
-   self
+   
    review-hypervisor-performance-metrics.rst
    view-hypervisor-configurations.rst
    
