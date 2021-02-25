@@ -24,7 +24,7 @@ This chapter includes the following sections:
    :maxdepth: 2
    :hidden:
 
-   self
+   
    understanding-vm-replication.rst
    understanding-vm-recovey.rst
    
