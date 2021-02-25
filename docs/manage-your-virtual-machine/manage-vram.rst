@@ -20,7 +20,7 @@ Refer to the following topics to manage vRAM on your VM:
    :maxdepth: 2
    :hidden:
 
-   self
+   
    upgrade-vram.rst
    downgrade-vram.rst
    set-vram-reservation.rst
