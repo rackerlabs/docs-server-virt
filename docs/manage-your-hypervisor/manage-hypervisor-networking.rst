@@ -23,7 +23,7 @@ This section includes the following topics:
    :maxdepth: 2
    :hidden:
 
-   self
+   
    add-or-remove-a-vswitch.rst
    manage-port-groups.rst
    manage-uplinks.rst
