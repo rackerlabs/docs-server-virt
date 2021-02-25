@@ -118,10 +118,10 @@ the vDisk is offline.
 To detach a vDisk from your VM, create a Rackspace Technology ticket that
 includes the following information:
 
-* The name of the VM.
-* The vDisk number.
-* The vDisk size.
-* The name of the datastore.
+* The name of the VM
+* The vDisk number
+* The vDisk size
+* The name of the datastore
 * If Rackspace Technology manages the OS, include the drive letter or
   partition.
 
@@ -146,9 +146,9 @@ refer to Move a VM to a datastore [link] by using storage vMotion.
 To expand a vDisk, create a Rackspace Technology ticket that includes the
 following information:
 
-* The name of the VM.
-* The vDisk number.
-* The current vDisk size and the amount of space you want to add.
+* The name of the VM
+* The vDisk number
+* The current vDisk size and the amount of space you want to add
 * If Rackspace Technology manages the OS, include the drive letter or
   partition.
 

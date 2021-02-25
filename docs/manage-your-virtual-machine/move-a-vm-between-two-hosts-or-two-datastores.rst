@@ -87,9 +87,9 @@ might impact your environment.
 To request a vMotion, open a Rackspace Technology ticket and specify
 the following information:
 
-* The VMs you want to migrate.
-* The source and destination ESXi hosts or vSphere clusters.
-* A timeframe for the migration.
+* The VMs you want to migrate
+* The source and destination ESXi hosts or vSphere clusters
+* A timeframe for the migration
 
 
 
@@ -126,9 +126,9 @@ datastore to another LUN or datastore.
 To request a storage vMotion, open a Rackspace Technology ticket and
 specify the following information:
 
-* The VMs or the vDisks you want to migrate.
-* The source and destination datastores.
-* A timeframe for the migration.
+* The VMs or the vDisks you want to migrate
+* The source and destination datastores
+* A timeframe for the migration
 
 
 

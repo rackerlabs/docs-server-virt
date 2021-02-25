@@ -21,6 +21,6 @@ the device name that appears in the Rackspace Technology Customer Portal.
 To rename a VM, open a Rackspace Technology ticket and provide
 the following information:
 
-* Current VM name.
-* New VM name.
+* Current VM name
+* New VM name
 

@@ -18,8 +18,8 @@ after the VM is available.
 
 Before you begin, ensure that you are familiar with the following items:
 
-* The compute destination of the VM (choices include a vSphere cluster or
-   standalone ESXi server).
+* The compute destination of the VM (such as a vSphere cluster or
+   standalone ESXi server)
 * The OS version you want (Windows and various Linux distributions)
 * The network on which to connect the VM
 * Port group names
