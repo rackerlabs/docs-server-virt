@@ -26,7 +26,7 @@ This section includes the following topics:
    :maxdepth: 2
    :hidden:
 
-   self
+   
    create-a-snapshot.rst
    delete-a-snapshot.rst
    revert-to-a-snapshot.rst
