@@ -28,7 +28,7 @@ This section includes the following topics:
    :maxdepth: 2
    :hidden:
 
-   self
+   
    add-vcpu.rst
    remove-vcpu.rst
    adjust-the-number-of-virtual-sockets-and-the-number-
