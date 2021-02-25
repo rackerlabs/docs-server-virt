@@ -31,7 +31,7 @@ This section includes the following topics:
    :maxdepth: 2
    :hidden:
 
-   self
+   
    add-a-vnic.rst
    remove-a-vnic.rst
    change-the-association-between-a-vnic-a-port-group.rst
