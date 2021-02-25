@@ -43,7 +43,7 @@ This section includes the following topics:
    :hidden:
 
     
-   self
+   
    understanding-vm-replication-key-features.rst
    understanding-vm-replication-architecture.rst
    understanding-how-vm-replication-protection-works.rst
