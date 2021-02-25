@@ -33,8 +33,8 @@ _____________________
 
 You can use the Rackspace Technology Customer Portal to see the ESXi
 hosts that form a part of a vSphere cluster. If you have multiple
-vSphere clusters, you can see all of the clusters. Understanding the ESXi
-hosts that comprise a vSphere cluster is useful when you ask us
+vSphere clusters, you can see all of the clusters. Understanding the 
+ESXi hosts that comprise a vSphere cluster is useful when you ask us
 to make changes to multiple ESXi hosts. Instead of providing us with
 he names of all hosts in the cluster, you can simply give us
 the vSphere cluster name.
