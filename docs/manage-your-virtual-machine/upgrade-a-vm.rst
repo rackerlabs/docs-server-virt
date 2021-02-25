@@ -20,7 +20,7 @@ This section includes the following topics:
    :maxdepth: 2
    :hidden:
 
-   self
+   
    upgrade-vmware-tools.rst
    upgrade-virtual-hardware-compatibility-version.rst
    
