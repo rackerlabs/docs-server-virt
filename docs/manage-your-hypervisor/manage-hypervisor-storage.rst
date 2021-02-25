@@ -27,7 +27,7 @@ This section includes the following topics:
    :maxdepth: 2
    :hidden:
 
-   self
+   
    expand-luns.rst
    shrink-hypervisor-storage.rst
    expand-vmfs-datastore.rst
