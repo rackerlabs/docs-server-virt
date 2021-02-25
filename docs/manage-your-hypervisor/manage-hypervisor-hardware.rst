@@ -21,7 +21,7 @@ This section includes the following topics:
    :maxdepth: 2
    :hidden:
 
-   self
+   
    add-ram-to-a-hypervisor.rst
    upgrade-cpu-in-a-hypervisor.rst
    migrate-to-a-new-hypervisor-chassis.rst
