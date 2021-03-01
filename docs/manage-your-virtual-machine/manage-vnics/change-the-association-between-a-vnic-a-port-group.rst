@@ -1,102 +1,10 @@
-.. _manage-vnics:
-
-
-============
-Manage vNCIs
-============
-
-VMs typically include the following two virtual network interface
-cards:ref:`understanding-vnics`.
-
-* **Public interface:** The public interface vNIC is the primary connection.
-* **Dedicated backup network interface:** If you subscribe to
-  the Rackspace Technology managed backup service, the dedicated backup
-  network vNIC is used for file backup traffic.
-
-While you cannot manage a vNIC yourself, we provide a list of information
-for the following tasks that you should include in your ticket so that we
-can expedite your request.
-
-This section includes the following topics:
-
-- :ref:`Add a vNIC <add-a-vnic>`
-- :ref:`Remove a vNIC <remove-a-vnic>`
-- :ref:`Change the association between a vNIC a port group <change
-  -the-association-between-a-vnic-a-port-group>`
-- :ref:`Change vNIC type <change-vnic-type>`
-- :ref:`Connect or disconnect a vNIC <connect-or-disconnect-a-vnic>`
-
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-
-   
-   add-a-vnic.rst
-   remove-a-vnic.rst
-   change-the-association-between-a-vnic-a-port-group.rst
-   change-vnic-type.rst
-   connect-or-disconnect-a-vnic.rst
-   
-
-
-
-
-
-.. _add-a-vnic:
-
-
-
-Add a vNIC
-__________
-
-If required by your software application, you can add a vNIC to a VM.
-
-You cannot add a vNIC yourself. You must create a ticket and request that
-we add the vNIC for you.
-
-To add a vNIC, create a Rackspace Technology ticket that includes the
-following information:
-
-* The name of the VM.
-* The port group name to which the vNIC should connect.
-  
-Unless you specify otherwise, we configure the vNIC as a VMXNET3 interface.
-For more information about vNIC types, refer to :ref:`understanding-vnics`.
-
-
-
-.. _remove-a-vnic:
-
-
-
-Remove a vNIC
-_____________
-
-When you no longer need a vNIC that you have added (for example, if you
-have uninstalled the application that requires the vNIC), you can request
-that we remove it.
-
-**Note:** Do not request that we remove either of the default vNICs.
-If either of the default vNICs is removed, you lose access to your VM,
-and any backups might stop working.
-
-To remove a vNIC, create a Rackspace Technology ticket that includes
-the following information:
-
-* The VM to which the vNIC connects.
-* The name of the vNIC you want removed.
-
-
-
-
 .. _change-the-association-between-a-vnic-a-port-group:
 
 
 
-
+==================================================
 Change the association between a vNIC a port group
-__________________________________________________
+==================================================
 
 
 
