@@ -54,12 +54,12 @@ This chapter contains the following sections:
    reboot-a-vm.rst
    reimage-a-vm.rst
    resize-a-vm.rst
-   manage-snaphots.rst
-   manage-vdisk.rst
-   manage-vnics.rst
-   manage-vcpu.rst
-   manage-vram.rst
-   move-a-vm-between-two-hosts-or-two-datastores.rst
-   upgrade-a-vm.rst
+   manage-snapshots/index.rst
+   manage-vdisk/index.rst
+   manage-vnics/index.rst
+   manage-vcpu/index.rst
+   manage-vram/index.rst
+   move-a-vm-between-two-hosts-or-two-datastores/index.rst
+   upgrade-a-vm/index.rst
    rename-a-vm.rst
-   review-plan-capacity-of-virtual-machines.rst
+   review-plan-capacity-of-virtual-machines/index.rst
