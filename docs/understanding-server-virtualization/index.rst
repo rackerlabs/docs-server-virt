@@ -42,11 +42,11 @@ This chapter explains the following virtualization on VMware concepts:
     
    what-is-a-virtual-machine.rst
    understanding-hypervisors.rst
-   understanding-vmware-vsphere-clusters.rst
+   understanding-vmware-vsphere-clusters/index.rst
    understanding-vmware-vcenter.rst
    understanding-vcpu.rst
    understanding-vram.rst
-   understanding-networking.rst
+   understanding-networking/index.rst
    understanding-storage.rst
    understanding-snapshots.rst
    understanding-migrations-using-vmotion.rst
