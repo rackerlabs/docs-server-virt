@@ -60,6 +60,9 @@ html_static_path = ['_static']
 #     ],
 # }
 
+# Add any paths that contain templates here, relative to this directory.
+templates_path = ['_templates']
+
 # The suffix of source filenames.
 source_suffix = '.rst'
 
@@ -68,6 +71,12 @@ source_suffix = '.rst'
 
 # The master toctree document.
 master_doc = 'index'
+
+# linkcheck options
+linkcheck_ignore = ['https://pages.github.rackspace.com*',
+                    'https://pitchfork.eco.rackspace.com*']
+linkcheck_anchors = False
+
 
 # General information about the project.
 project = 'VMware Server Virtualization Customer Handbook'
