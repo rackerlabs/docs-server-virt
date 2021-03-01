@@ -1,26 +1,9 @@
-.. _understanding_vmware_vsphere_clusters:
+.. _distributed-resource-scheduler:
 
 
-=====================================
-Understanding VMware vSphere clusters
-=====================================
-
-A VMware vSphere cluster is a collection of ESXi hypervisors that work
-together. vSphere cluster members pool their resources with a single VM
-that draws resources from one hypervisor at a time. All cluster members
-have either identical, or, in some cases similar, configurations.
-
-By default, and to further benefit from the clustered setup, Rackspace
-Technology enables a Distributed Resource Scheduler and high availability.
-
-
-
-
-.. _distributed_resource_scheduler:
-
-
+==============================
 Distributed resource scheduler
-------------------------------
+==============================
 
 Distributed Resource Scheduler (DRS) monitors the workload between
 hypervisors, and you can configure it to move VMs between ESXi hosts
@@ -70,17 +53,3 @@ Consider the following DRS rules categories:
       placed in a group of hosts that are defined as part of the rule.
       * A group of VMs must not run on a group of hosts. The VMs avoid
       the specified hosts at all costs, even during an HA failover event.
-
-
-
-.. _high_availability:
-
-
-High availability
------------------
-
-VMware vSphere® HA monitors the ESXi host status, and when a host
-fails, the vSphere HA feature automatically restarts the VMs on
-remaining hosts.For the HA feature to function as intended, the
-storage and networking must be consistent across all hosts in the
-vSphere cluster.

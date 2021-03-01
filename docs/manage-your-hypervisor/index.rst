@@ -31,10 +31,10 @@ This chapter includes the following sections:
    :hidden:
 
    
-   manage-vsphere-clusters.rst
+   manage-vsphere-clusters/index.rst
    upgrade-esxi-version.rst
-   manage-hypervisor-hardware.rst
-   manage-hypervisor-networking.rst
-   manage-hypervisor-storage.rst
+   manage-hypervisor-hardware/index.rst
+   manage-hypervisor-networking/index.rst
+   manage-hypervisor-storage/index.rst
    plan-hypervisor-capacity.rst
    

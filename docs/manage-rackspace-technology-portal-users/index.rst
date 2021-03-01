@@ -1,6 +1,7 @@
 .. _manage-rackspace-technology-portal-users:
 
 
+
 ========================================
 Manage Rackspace Technology Portal users
 ========================================
@@ -14,25 +15,16 @@ dedicated-hosting/>`_ for instructions about managing user permissions.
 
 
 
+This section also includes:
 
-.. _credentials-management:
-
-
-
-
-Credentials management
-______________________
+- :ref:`Credentials management <credentials-management>`
 
 
 
-For supported VMs and in accordance with ISO27001 requirements,
-we maintain a formal policy for credentials to your environment.
-These credentials give us the ability to provide managed services
-and enable automation.
+.. toctree::
+   :maxdepth: 2
+   :hidden:
 
-While you have full administrator access to modify VM passwords and
-accounts as necessary, we advise against making changes to
-the Rackspace Technology account to avoid impacting your support
-experience. If you do make changes, open a ticket to ensure that
-we are aware of the changes.
-
+   
+   credentials-management/index.rst
+   

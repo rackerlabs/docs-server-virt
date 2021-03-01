@@ -19,7 +19,29 @@ This section includes the following topics:
 * Add a resource pool
 
 
+This chapter includes the following sections:
 
+- :ref:`View vSphere clusters <view-vsphere-clusters>`
+- :ref:`Configure the distributed resource scheduler
+  <configure-the-distributed-resource-scheduler>`
+- :ref:`Configure high availability <configure-high-availability>`
+- :ref:`Distributed power management <distributed-power-management>`
+- :ref:`Add a resource pool <add-a-resource-pool>`
+
+
+
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
+   
+   view-vsphere-clusters.rst
+   configure-the-distributed-resource-scheduler.rst
+   configure-high-availability.rst
+   distributed-power-management.rst
+   add-a-resource-pool.rst
+ 
 
 
 .. _view-vsphere-clusters:
