@@ -2,9 +2,9 @@
 
 
 
-=========================
-What is a Virtual Machine
-=========================
+===========================
+What is a Virtual Machine ?
+===========================
 
 A VM is software that mimics the behavior of a stand-alone computer.
 You can use a VM to:
