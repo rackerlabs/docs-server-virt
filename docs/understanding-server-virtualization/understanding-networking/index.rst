@@ -25,7 +25,7 @@ This section explains the following concepts:
 
 .. toctree::
    :maxdepth: 2
-   
+   :hidden:
 
    understanding-vswitches.rst
    understanding-uplinks.rst
