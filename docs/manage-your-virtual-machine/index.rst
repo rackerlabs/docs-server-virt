@@ -31,11 +31,11 @@ This chapter contains the following sections:
 - :ref:`Manage vCPU <manage-vcpu>`
 - :ref:`Manage vRAM <manage-vram>`
 - :ref:`Move a VM between two hosts or two datastores <move-a-vm
-  between-two-hosts-or-two-datastores>`
+between-two-hosts-or-two-datastores>`
 - :ref:`Upgrade a VM <upgrade-a-vm>`
 - :ref:`Rename a VM <rename-a-vm>`
 - :ref:`Review plan capacity of virtual machines <review-plan
-  capacity-of-virtual-machines>`
+capacity-of-virtual-machines>`
 
 
 
