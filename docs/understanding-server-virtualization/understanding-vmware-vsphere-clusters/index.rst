@@ -18,15 +18,6 @@ This section includes the following topics:
 - :ref:`Distributed resource scheduler <distributed-resource-scheduler>`
 - :ref:`High availability  <high-availability>`
 
-
-
-.. toctree::
-   :maxdepth: 2
-
-
-   
-   distributed-resource-scheduler.rst
-   high-availability.rst
    
 
 
