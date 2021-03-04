@@ -20,9 +20,21 @@ and easier migration and upgrades.
 
 This chapter explains the following virtualization on VMware concepts:
 
+- :ref:`What is a virtual machine? <what-is-a-virtual-machine>`
+- :ref:`Understanding hypervisors <understanding-hypervisors>`
+- :ref:`Understanding VMware vSphere clusters <understanding-vmware-vsphere-clusters>`
+- :ref:`Understanding VMware vCenter <understanding-vmware-vcenter>`
+- :ref:`Understanding vCPU <understanding-vcpu>`
+- :ref:`Understanding vRAM <understanding-vram>`
+- :ref:`Understanding networking <understanding-networking>`
+- :ref:`Understanding storage <understanding-storage>`
+- :ref:`Understanding snapshots <understanding-snapshots>`
+- :ref:`Understanding migrations using vMotion <understanding-migrations-using vMotion>`
+
+
 .. toctree::
   :maxdepth: 2
-
+  :hidden:
   
   what-is-a-virtual-machine.rst
   understanding-hypervisors.rst
@@ -36,38 +48,3 @@ This chapter explains the following virtualization on VMware concepts:
   understanding-migrations-using-vmotion.rst
 
 
-
-
-
-
-
-- :ref:`What is a virtual machine? <what-is-a-virtual-machine>`
-- :ref:`Understanding hypervisors <understanding-hypervisors>`
-- :ref:`Understanding VMware vSphere clusters <understanding-vmware-vsphere
-  -clusters>`
-- :ref:`Understanding VMware vCenter <understanding-vmware-vcenter>`
-- :ref:`Understanding vCPU <understanding-vcpu>`
-- :ref:`Understanding vRAM <understanding-vram>`
-- :ref:`Understanding networking <understanding-networking`
-- :ref:`Understanding storage <understanding-storage>`
-- :ref:`Understanding snapshots <understanding-snapshots>`
-- :ref:`Understanding migrations using vMotion <understanding-migrations-
-  using vMotion>`
-
-
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-
-    
-   what-is-a-virtual-machine.rst
-   understanding-hypervisors.rst
-   understanding-vmware-vsphere-clusters/index.rst
-   understanding-vmware-vcenter.rst
-   understanding-vcpu.rst
-   understanding-vram.rst
-   understanding-networking/index.rst
-   understanding-storage.rst
-   understanding-snapshots.rst
-   understanding-migrations-using-vmotion.rst
