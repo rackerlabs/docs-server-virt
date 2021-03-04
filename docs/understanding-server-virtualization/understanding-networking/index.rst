@@ -21,3 +21,13 @@ This section explains the following concepts:
 - :ref:`Understanding port groups <understanding-port-groups>`
 - :ref:`Understanding vNICs <understanding-vnics>`
 
+
+
+.. toctree::
+   :maxdepth: 2
+   
+
+   understanding-vswitches.rst
+   understanding-uplinks.rst
+   understanding-port-groups.rst
+   understanding-vnics.rst
