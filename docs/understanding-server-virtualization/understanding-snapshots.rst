@@ -1,4 +1,4 @@
-.. _understanding_snapshots:
+.. _understanding-snapshots:
 
 
 =======================

@@ -1,4 +1,4 @@
-.. _what_is_a_virtual_machine:
+.. _what-is-a-virtual-machine:
 
 
 

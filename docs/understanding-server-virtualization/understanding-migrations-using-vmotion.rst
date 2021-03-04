@@ -1,4 +1,4 @@
-.. _understanding_migrations_using_vmotion:
+.. _understanding-migrations-using-vmotion:
 
 
 ======================================

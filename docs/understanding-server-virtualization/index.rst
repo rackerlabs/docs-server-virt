@@ -1,4 +1,4 @@
-.. _understanding_server-virtualization:
+.. _understanding-server-virtualization:
 
 
 
@@ -23,17 +23,17 @@ This chapter explains the following virtualization on VMware concepts:
 .. toctree::
   :maxdepth: 2
 
-  Rackspace Technology Customer Portal Onboarding Guide <self>
-  intended_audience.rst
-  introduction.rst
-  portal_profile/index.rst
-  manage_portal_user_groups/index.rst
-  administrative/index.rst
-  understand_billing/index.rst
-  manage_billing/index.rst
-  tickets/index.rst
-  notifications/index.rst
-  support.rst
+  
+  what-is-a-virtual-machine.rst
+  understanding-hypervisors.rst
+  understanding-vmware-vsphere-clusters/index.rst
+  understanding-vmware-vcenter.rst
+  understanding-vcpu.rst
+  understanding-vram.rst
+  understanding-networking/index.rst
+  understanding-storage.rst
+  understanding-snapshots.rst
+  understanding-migrations-using-vmotion.rst
 
 
 
