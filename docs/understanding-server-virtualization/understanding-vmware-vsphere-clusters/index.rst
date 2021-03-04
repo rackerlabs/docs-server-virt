@@ -22,7 +22,7 @@ This section includes the following topics:
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
+
 
    
    distributed-resource-scheduler.rst
