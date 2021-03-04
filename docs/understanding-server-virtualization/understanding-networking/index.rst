@@ -2,7 +2,7 @@
 
 
 ========================
-Understanding Networking
+Understanding networking
 ========================
 
 This section explains networking concepts that are important to understand
