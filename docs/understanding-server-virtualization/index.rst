@@ -1,4 +1,4 @@
-.. _rackspace_server_virtualization_solution_guide:
+.. _understanding_server-virtualization:
 
 
 
@@ -19,6 +19,27 @@ less machine down-time, better resiliency, extra features such as snapshots,
 and easier migration and upgrades.
 
 This chapter explains the following virtualization on VMware concepts:
+
+.. toctree::
+  :maxdepth: 2
+
+  Rackspace Technology Customer Portal Onboarding Guide <self>
+  intended_audience.rst
+  introduction.rst
+  portal_profile/index.rst
+  manage_portal_user_groups/index.rst
+  administrative/index.rst
+  understand_billing/index.rst
+  manage_billing/index.rst
+  tickets/index.rst
+  notifications/index.rst
+  support.rst
+
+
+
+
+
+
 
 - :ref:`What is a virtual machine? <what-is-a-virtual-machine>`
 - :ref:`Understanding hypervisors <understanding-hypervisors>`
