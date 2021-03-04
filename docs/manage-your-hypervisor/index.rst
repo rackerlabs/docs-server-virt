@@ -35,6 +35,6 @@ This chapter includes the following sections:
    upgrade-esxi-version.rst
    manage-hypervisor-hardware/index.rst
    manage-hypervisor-networking/index.rst
-   manage-hypervisor-storage/indexgit .rst
+   manage-hypervisor-storage/index.rst
    plan-hypervisor-capacity.rst
    
