@@ -42,7 +42,7 @@ This chapter explains the following virtualization on VMware concepts:
   understanding-vmware-vcenter.rst
   understanding-vcpu.rst
   understanding-vram.rst
-  understanding-networking.rst
+  understanding-networking/index.rst
   understanding-storage.rst
   understanding-snapshots.rst
   understanding-migrations-using-vmotion.rst
