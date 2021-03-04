@@ -45,17 +45,17 @@ environment. This guide contains the following chapters:
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
+   
 
-   self
-   understanding-server-virtualization.rst
-   vmware-server-virtualization-architecture-options.rst
-   understanding-roles-and-responsibilities.rst
-   datastore-overhead-requirements.rst
-   migrate-a-workload-to-vmware-server-virtualization.rst
-   log-in-to-the-rackspace-technology-customer-portal.rst
-   manage-rackspace-technology-customer-portal-users.rst
-   manage-your-virtual-machine.rst
-   manage-your-hypervisor.rst
-   replication-and-recovery.rst
-   maintain-your-environment.rst
+   Rackspace Server Virtualization Solution Guide <self> 
+   understanding-server-virtualization/index.rst
+   vmware-server-virtualization-architecture-options/index.rst
+   understanding-roles-and-responsibilities/index.rst
+   datastore-overhead-requirements/index.rst
+   migrate-a-workload-to-vmware-server-virtualization/index.rst
+   log-in-to-the-rackspace-technology-customer-portal/index.rst
+   manage-rackspace-technology-customer-portal-users/index.rst
+   manage-your-virtual-machine/index.rst
+   manage-your-hypervisor/index.rst
+   replication-and-recovery/index.rst
+   maintain-your-environment/index.rst
