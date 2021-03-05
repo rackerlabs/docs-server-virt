@@ -38,3 +38,4 @@ ENV/
 .bak
 /.project
 .python-version
+.vscode
