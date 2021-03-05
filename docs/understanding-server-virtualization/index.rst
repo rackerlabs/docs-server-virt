@@ -20,6 +20,8 @@ and easier migration and upgrades.
 
 This chapter explains the following virtualization on VMware concepts:
 
+
+
 - :ref:`What is a virtual machine? <what-is-a-virtual-machine>`
 - :ref:`Understanding hypervisors <understanding-hypervisors>`
 - :ref:`Understanding VMware vSphere clusters <understanding-vmware-vsphere-clusters>`
@@ -29,7 +31,7 @@ This chapter explains the following virtualization on VMware concepts:
 - :ref:`Understanding Networking <understanding-networking>`
 - :ref:`Understanding storage <understanding-storage>`
 - :ref:`Understanding snapshots <understanding-snapshots>`
-- :ref:`Understanding migrations using vMotion <understanding-migrations-using vMotion>`
+- :ref:`Understanding migrations using vMotion <understanding-migrations-using-vmotion>`
 
 
 
