@@ -23,7 +23,7 @@ This chapter explains the following virtualization on VMware concepts:
 
 .. toctree::
   :maxdepth: 2
-  
+  :hidden:
   what-is-a-virtual-machine.rst
   understanding-hypervisors.rst
   understanding-vmware-vsphere-clusters/index.rst
