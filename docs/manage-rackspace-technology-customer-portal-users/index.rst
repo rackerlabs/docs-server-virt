@@ -26,5 +26,6 @@ This section also includes:
    :hidden:
 
    
-   credentials-management/index.rst
+   manage-rackspace-technology-customer-portal-users/index.rst
+   credentials-management.rst
    
