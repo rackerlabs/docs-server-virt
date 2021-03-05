@@ -2,9 +2,9 @@
 
 
 
-=============  ===  ===========  =====  ===  ================
+=============================================================
 Understanding  VM   replication  roles  and  responsibilities
-=============  ===  ===========  =====  ===  ================
+=============================================================
 
 
 
@@ -21,14 +21,13 @@ Rackspace Technology VMware Server Virtualization VM replication:
   edition.
 
 **Sizing**
++----------------------------------------------------+-----------------------+------------------------+
+| **Task**                                           | **LOCAL REPLICATION** | **REMOTE REPLICATION** |
 +====================================================+=======================+========================+
-| **TASK**                                           | **LOCAL REPLICATION** | **REMOTE REPLICATION** |
-+----------------------------------------------------+-----------------------+------------------------+
 | Size customer-required infrastructure for local    | Rackspace             | Rackspace              |
-| recoveries or failovers to the target site         |                       |                        |
+| recoveries or failovers to the target site         |                       |                        | 
 +----------------------------------------------------+-----------------------+------------------------+
-| Provide VM replication journal-sizing requirements | Rackspace             | Rackspace              |
-|                                                    |                       |                        |
+| Provide VM replication journal-sizing requirements | Rackspace             | Rackspace              |  
 +----------------------------------------------------+-----------------------+------------------------+
 **Deployment**
 +==================================================+=======================+========================+
