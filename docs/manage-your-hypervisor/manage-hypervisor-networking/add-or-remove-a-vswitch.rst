@@ -9,7 +9,7 @@ Add or remove a vSwitch
 
 A vSwitch, a virtual switch that provides a link between uplinks and port
 groups, can use multiple uplinks and manage multiple port groups. Refer to
-Understanding vSwitches[link] for more information about vSwitches.
+:ref:`understanding-vswitches` for more information about vSwitches.
 
 To add or remove a vSwitch, open a Rackspace Technology ticket and
 request a consultation.
