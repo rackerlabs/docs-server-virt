@@ -25,6 +25,6 @@ This chapter includes the following sections:
    :hidden:
 
    
-   understanding-vm-replication.rst
-   understanding-vm-recovey.rst
+   understanding-vm-replication/index.rst
+   understanding-vm-recovey/index.rst
    
