@@ -1,6 +1,6 @@
 .. _manage-hypervisor-hardware:
 
-10.3
+
 
 ==========================
 Manage hypervisor hardware

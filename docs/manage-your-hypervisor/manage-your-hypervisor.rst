@@ -1,6 +1,5 @@
 .. _manage-your-hypervisor:
 
-10
 
 ======================
 Manage your hypervisor

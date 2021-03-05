@@ -17,15 +17,7 @@ for instructions about managing user permissions.
 
 This section also includes:
 
-- :ref:`Credentials management <credentials-management>`
+* Manage Rackspace Technology Customer Portal users
+* Credentials management
 
-
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-
-   
-   manage-rackspace-technology-customer-portal-users/index.rst
-   credentials-management.rst
    
