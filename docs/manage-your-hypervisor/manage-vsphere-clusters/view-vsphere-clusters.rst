@@ -18,7 +18,7 @@ the vSphere cluster name.
 To see vSphere clusters and members:
 
 1. Log in to the
-   `Rackspace Technology Customer Portal<https://login.rackspace.com/>`_.
+   `Rackspace Technology Customer Portal <https://login.rackspace.com/>`_.
 2. In the Products drop-down menu, select
    **VMware Server Virtualization**.
 3. Click the Clusters tab.
