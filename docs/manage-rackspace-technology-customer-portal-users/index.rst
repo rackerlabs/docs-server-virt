@@ -1,4 +1,4 @@
-.. _manage-rackspace-technology-portal-users:
+.. _manage-rackspace-technology-customer-portal-users:
 
 
 
@@ -10,8 +10,8 @@ Because the Rackspace Technology Customer Portal supports multiple
 offerings, we have documented the instructions for managing users in a
 separate guide. Refer to
 `Manage user permissions for Dedicated Hosting
-<https://docs.rackspace.com/support/how-to/manage-user-permissions-for-
-dedicated-hosting/>`_ for instructions about managing user permissions.
+<https://docs.rackspace.com/support/how-to/manage-user-permissions-for-dedicated-hosting/>`_.
+for instructions about managing user permissions.
 
 
 

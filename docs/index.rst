@@ -5,7 +5,7 @@
 About Rackspace Server Virtualization
 =====================================
 
-Rackspace Server Virtualization is a managed VMware® vSphere environment
+Rackspace Server Virtualization is a manged VMware® vSphere environment
 that enables you to offload the maintenance and monitoring of the
 infrastructure, VMware stack, and guest operating system layer to a
 Rackspace Technology team of VMware Certified Professionals who are experts

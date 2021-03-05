@@ -16,7 +16,7 @@ powered-off state. The VM also reverts to a powered-off state if
 the snapshot does not include the memory. Otherwise, the VM continues
 to run.
 
-**Note:**You cannot reverse a revert snapshot action.
+**Note:** You cannot reverse a revert snapshot action.
 
 1. Log in to the Rackspace Technology Customer Portal and click
    **Products > VMware Server Virtualization**.
