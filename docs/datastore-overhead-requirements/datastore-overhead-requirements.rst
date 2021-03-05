@@ -23,5 +23,6 @@ the criterion with the highest percentage takes priority.
 
 This section includes the following topics:
 
+* Datastore overhead requirements
 * Why is datastore overhead required? 
    

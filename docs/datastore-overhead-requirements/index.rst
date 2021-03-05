@@ -23,6 +23,7 @@ the criterion with the highest percentage takes priority.
 
 This section includes the following topics:
 
+- :ref:`Datastore overhead requirements <datastore-overhead-requirements>`
 - :ref:`Why is datastore overhead required? <why-is-datastore-overhead-required>`
 
 
@@ -31,7 +32,7 @@ This section includes the following topics:
    :maxdepth: 2
    :hidden:
 
-   
-   why-is-datastore-overhead-required/index.rst
+   datastore-overhead-requirements/index.rst
+   why-is-datastore-overhead-required.rst
    
    
