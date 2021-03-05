@@ -30,16 +30,19 @@ first-served basis. However, if this maintenance is urgent or if
 there is a limited timeline in which to execute it, contact your
 account team to see if we can accommodate your need.
 
+This chapter contains the following sections:
 
+- :ref:`ESXi patching <esxi-patching>`
+- :ref:`OS patching <os-patching>`
 
 
 .. _esxi-patching:
 
 
 
-
+=============
 ESXi patching
-_____________
+=============
 
 
 
