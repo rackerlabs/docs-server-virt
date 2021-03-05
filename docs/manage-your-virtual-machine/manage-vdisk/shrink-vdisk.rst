@@ -11,10 +11,10 @@ the following procedures.
 For vDisks that serve as a non-system partition, complete the following
 steps:
 
-1. Request that we add a smaller vDisk to a datastore.:ref:`add-vdisk`.
+1. Request that we add a smaller vDisk to a datastore. :ref:`add-vdisk`.
 2. Request that we migrate your data from the larger vDisk to the smaller
    vDisk.
-3. Request that we delete the larger vDisk:ref:`delete-vdisk`.
+3. Request that we delete the larger vDisk :ref:`delete-vdisk`.
 
 For vDisks that serve as a system partition in the OS, you can request 
 that we reimage your VM, or you can complete the following steps:
