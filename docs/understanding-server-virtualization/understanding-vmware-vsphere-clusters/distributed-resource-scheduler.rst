@@ -14,7 +14,7 @@ migration.
 DRS operates in the following three modes:
 
 * **Fully automated (default, recommended):** When you power on a VM,
-DRS moves running VMs and automatically selects the most suitable host.
+DRS moves running VMs and automatically selects the most suitable host. \
 * **Partially automated:** DRS automatically selects the most suitable
 host when you power on a VM but only provides recommendations to migrate
 running VMs.
@@ -31,7 +31,7 @@ Consider the following DRS rules categories:
 
 *	**VM-VM Affinity:** Keep VMs together. Use this affinity setting if VMs
     perform best when they run on the same host.
-* **VM-VM Anti-affinity:** Keep VMs separate and prevent them from running
+* **VM-VM Anti-affinity:** Keep VMs separate and prevent them from running \
     on the same host. If you have two web servers running on the same host,
     and the host fails, both web servers go down.
 * **VM-Host rules:** Host rules apply to a group of VMs and a group
@@ -39,7 +39,7 @@ Consider the following DRS rules categories:
   following options to define a VM-Host rule:
 
       * A group of VMs should run on a group of hosts. This approach limits
-      some VMs to run only on a set of hosts. You might want this option due
+      some VMs to run only on a set of hosts. You might want this option due \
       to a specific hardware (for example, greater capability) advantage on
       those hosts. However, the rule is ignored when you place
       eligible hosts in maintenance mode and during an HA restart.

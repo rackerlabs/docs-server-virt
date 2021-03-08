@@ -45,12 +45,15 @@ Complete the following steps to order a VM:
 5. In the **Image section**, select an operating system (OS) image you
    want to use. Only the supported OSs on the destination are visible.
 6.	In the **Configuration section**, complete the following steps:
-      a.	Select a vCPU value. For more information about vCPU,
-            see:ref:`understanding-vcpu`. You can change this value
-            after the VM has been provisioned.
-      b.	Select a vRAM value. For more information about vRAM, see
-            :ref:`understanding-vram`.
-      c.	Select a network.
+
+      a.	Select a vCPU value. For more information about vCPU, \
+see:ref:`understanding-vcpu`. You can change this value \
+after the VM has been provisioned. \
+
+      b.	Select a vRAM value. For more information about vRAM, see \
+:ref:`understanding-vram`. \
+
+      c.	Select a network. \
 
     The list contains networks that you have requested we create for you.
     We custom make these networks for your environment.
@@ -64,22 +67,22 @@ Complete the following steps to order a VM:
     until we fulfill the order. If you are unsure of which domain
     to select, open a ticket and request a consultation.
 
-    a.	In the **Storage** section, complete the following steps:
+    a.	In the **Storage** section, complete the following steps: \
 
         a.	Select the **Root Storage Device**. This is the VMFS datastore
-            on which the first vDisk resides. For more information about
+            on which the first vDisk resides. For more information about \
             root storage device options,
             see :ref:`understanding-storage`.
-        b.	In the **Root Storage Size** field, enter the amount of storage
-            to add to the first vDisk of your VM.
-        c.	In the **Root Mountpoint** field, enter the root mount point
-            value.
+        b.	In the **Root Storage Size** field, enter the amount of storage \
+            to add to the first vDisk of your VM. \
+        c.	In the **Root Mountpoint** field, enter the root mount point \
+            value. \
             The **Root Mountpoint** can auto-allocate, depending on
             your selection.
-        d.	To add more vDisks, click **Add Storage**.
-            And repeat these steps
+        d.	To add more vDisks, click **Add Storage**. \
+            And repeat these steps \
 7.	In the **Security** section, under **Security Options**, select the
-    desired option.
+    desired option. \
 
 We recommend that you select **Armor Anywhere** to protect yourself
 from ransomware.
@@ -101,7 +104,7 @@ select your desired option for backups.
 click **Confirm**.
 11.	To order multiple VMs with the same configuration, complete
 the following steps:
-    a.	Select **Order multiple Virtual Machines with a
+    a.	Select **Order multiple Virtual Machines with a \
         similar configuration and click **Next Step**.
     b.	Click **Add Virtual Machine Copies**.
     c.	Choose between **Exact Copies** or **Modified Copies**.

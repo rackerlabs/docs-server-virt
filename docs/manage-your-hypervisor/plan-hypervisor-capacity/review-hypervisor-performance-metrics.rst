@@ -15,8 +15,10 @@ Complete the following steps to view metrics in the
 Rackspace Technology Customer Portal:
 
 1. Log in to the
-  `Rackspace Technology Customer PortalCloud Control Panel <https://login.rackspace.com/>`_
+* `Rackspace Technology Customer PortalCloud Control Panel <https://login.rackspace.com/>`_
+
 2. In the **Products** drop-down menu, select **VMware Server Virtualization**.
+
 3. Navigate to an ESXi hypervisor or a vSphere cluster for which you want to
    see the metrics.
 4. Scroll to the **Performance** section. In this section, you can:

@@ -27,8 +27,8 @@ OS based technologies:
 * Protected powered-off VMs.
 * Reduced load on ESXi host and VMs.
 * Increased recovery scenarios, providing VM image-level backup
-  and recovery.
-* Faster RTOs.
+* and recovery.
+* Faster RTOs. \
   
 Rackspace Technology Customer Portal allows the customer to view backup
 configuration, status, and history. It also enables the customer to request
