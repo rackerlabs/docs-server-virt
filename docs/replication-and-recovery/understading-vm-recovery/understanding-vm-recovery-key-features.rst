@@ -12,14 +12,14 @@ VM recovery includes the following key features:
 * VM image-level backup and recovery.
 * Individual file-level backup and recovery.
 * Database and application specific backup and recovery
-  (using guest OS agents).
+(using guest OS agents).
 * 24-hour RPO and 12-hour RTO.
 * Rackspace Technology initiation of restoration of
-  customer data stored onsite within two hours of the time customer
-  requests the restore via a support ticket.
+customer data stored onsite within two hours of the time customer
+requests the restore via a support ticket.
 * Rackspace Technology initiation of restoration of customer data stored
-  offsite within six hours of the time customer requests the restore via a
-  support ticket.
+offsite within six hours of the time customer requests the restore via a
+support ticket.
 
 Providing the following benefits when compared to guest
 OS based technologies:

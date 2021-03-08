@@ -19,10 +19,10 @@ on your VM, ensure that you save it elsewhere. The VM is unavailable
 for several hours while it is reimaged.
 
 1. Log in to the Rackspace Technology Customer Portal and click
-   **Products > VMware Server Virtualization**.
+**Products > VMware Server Virtualization**.
 2. On the list of virtual machines, select the virtual machine
-   you want to reimage.
-   This action opens the virtual machine's details.
+you want to reimage.
+This action opens the virtual machine's details.
 3. Click **Actions > Re-image VM**.
 4. Enter any special instructions to include in the support ticket.
 

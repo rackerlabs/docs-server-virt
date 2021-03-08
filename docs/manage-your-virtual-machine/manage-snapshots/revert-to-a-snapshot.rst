@@ -19,10 +19,10 @@ to run.
 **Note:** You cannot reverse a revert snapshot action.
 
 1. Log in to the Rackspace Technology Customer Portal and click
-   **Products > VMware Server Virtualization**.
+**Products > VMware Server Virtualization**.
 2. On the list of virtual machines, select the virtual machine for which
-   you want to revert a snapshot.
-   This action opens the virtual machine's details.
+you want to revert a snapshot.
+This action opens the virtual machine's details.
 3. Scroll to the **Snapshot** section, click the gear icon next to the
-   snapshot you want to revert, and click **Revert to Snapshot**.
+snapshot you want to revert, and click **Revert to Snapshot**.
 4. To confirm that you want to revert the snapshot, click **Revert**.

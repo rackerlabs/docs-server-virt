@@ -20,11 +20,11 @@ snapshot for more than two days. After two days, delete the snapshot or
 revert to the snapshot and original disks.
 
 1. Log in to the Rackspace Technology Customer Portal and click
-   **Products > VMware Server Virtualization**.
+**Products > VMware Server Virtualization**.
 2. On the list of virtual machines, select the virtual machine for which
-   you want to delete a snapshot.
-   This action opens the virtual machine's details.
+you want to delete a snapshot.
+This action opens the virtual machine's details.
 3. Scroll to the Snapshot section, click the gear icon next to the snapshot
-   you want to delete, and click **Delete Snapshot**.
+you want to delete, and click **Delete Snapshot**.
 4. To confirm that you want to delete the snapshot, click
-   **Delete Snapshot again**.
+**Delete Snapshot again**.

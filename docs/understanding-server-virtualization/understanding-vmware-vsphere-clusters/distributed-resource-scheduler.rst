@@ -30,13 +30,13 @@ configure DRS rules.
 Consider the following DRS rules categories:
 
 *	**VM-VM Affinity:** Keep VMs together. Use this affinity setting if VMs
-    perform best when they run on the same host.
+perform best when they run on the same host.
 * **VM-VM Anti-affinity:** Keep VMs separate and prevent them from running \
-    on the same host. If you have two web servers running on the same host,
-    and the host fails, both web servers go down.
+on the same host. If you have two web servers running on the same host,
+and the host fails, both web servers go down.
 * **VM-Host rules:** Host rules apply to a group of VMs and a group
-  of hosts. Each group must include at least one member. Use the
-  following options to define a VM-Host rule:
+of hosts. Each group must include at least one member. Use the
+following options to define a VM-Host rule:
 
       * A group of VMs should run on a group of hosts. This approach limits
       some VMs to run only on a set of hosts. You might want this option due \
