@@ -23,12 +23,9 @@ environment.
 
 This section includes the following topics:
 
-- :ref:`Migrate a VM to a different ESXi host by using vMotion <migrate-a-vm
-  -to-a-different-esxi-host-by-using-vmotion>`
-- :ref:`Move a VM to a datastore by using storage vMotion <move-a-vm-to-a-
-  datastore-by-using-storage-vmotion>`
-- :ref:`Migrate by using vMotion without shared storage <migrate-by-using
-  -vmotion-without-shared-storage>`
+- :ref:`Migrate a VM to a different ESXi host by using vMotion <migrate-a-vm-to-a-different-esxi-host-by-using-vmotion>`
+- :ref:`Move a VM to a datastore by using storage vMotion <move-a-vm-to-a-datastore-by-using-storage-vmotion>`
+- :ref:`Migrate by using vMotion without shared storage <migrate-by-using-vmotion-without-shared-storage>`
 
 
 
