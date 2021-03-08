@@ -32,7 +32,7 @@ This section includes the following topics:
    :maxdepth: 2
    :hidden:
 
-   datastore-overhead-requirements/index.rst
+   datastore-overhead-requirements.rst
    why-is-datastore-overhead-required.rst
    
    
