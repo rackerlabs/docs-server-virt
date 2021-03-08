@@ -52,6 +52,7 @@ see:ref:`understanding-vcpu`. You can change this value \
 after the VM has been provisioned. \
 
       b.	Select a vRAM value. For more information about vRAM, see \
+
 :ref:`understanding-vram`. \
 
       c.	Select a network. \
