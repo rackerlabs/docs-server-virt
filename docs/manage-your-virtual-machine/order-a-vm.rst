@@ -47,6 +47,7 @@ Complete the following steps to order a VM:
 6.	In the **Configuration section**, complete the following steps:
 
       a.	Select a vCPU value. For more information about vCPU, \
+
 see:ref:`understanding-vcpu`. You can change this value \
 after the VM has been provisioned. \
 
@@ -69,20 +70,20 @@ after the VM has been provisioned. \
 
     a.	In the **Storage** section, complete the following steps: \
 
-        a.	Select the **Root Storage Device**. This is the VMFS datastore
-            on which the first vDisk resides. For more information about \
-            root storage device options,
-            see :ref:`understanding-storage`.
+        a.	Select the **Root Storage Device**. This is the VMFS datastore \
+on which the first vDisk resides. For more information about \
+root storage device options, \
+see :ref:`understanding-storage`.
         b.	In the **Root Storage Size** field, enter the amount of storage \
-            to add to the first vDisk of your VM. \
+to add to the first vDisk of your VM. \
         c.	In the **Root Mountpoint** field, enter the root mount point \
-            value. \
-            The **Root Mountpoint** can auto-allocate, depending on
-            your selection.
+value. \
+The **Root Mountpoint** can auto-allocate, depending on \
+your selection. \
         d.	To add more vDisks, click **Add Storage**. \
-            And repeat these steps \
-7.	In the **Security** section, under **Security Options**, select the
-    desired option. \
+And repeat these steps \
+7.	In the **Security** section, under **Security Options**, select the \
+desired option. \
 
 We recommend that you select **Armor Anywhere** to protect yourself
 from ransomware.
