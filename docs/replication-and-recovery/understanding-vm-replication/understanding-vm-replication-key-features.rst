@@ -24,6 +24,7 @@ VM Replication includes the following features:
       for up to seven days, by default.
 * **Complete data protection**: One platform for all your data
   protection needs.
+  
     * Automated testing to ensure recoverability with no impact to production
     * Reports for full compliance that are consistent with regulations
       like Health Insurance Portability and Accountability Act (HIPAA),
