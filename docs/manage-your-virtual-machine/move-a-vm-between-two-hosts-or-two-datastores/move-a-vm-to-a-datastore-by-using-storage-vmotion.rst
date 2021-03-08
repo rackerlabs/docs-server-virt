@@ -1,4 +1,4 @@
-.. _move-a_vm_to_a_datastore_by_using_storage_vMotion:
+.. _move-a-vm-to-a-datastore-by-using-storage-vMotion:
 
 
 
