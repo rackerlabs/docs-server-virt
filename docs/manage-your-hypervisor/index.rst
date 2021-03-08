@@ -36,5 +36,5 @@ This chapter includes the following sections:
    manage-hypervisor-hardware/index.rst
    manage-hypervisor-networking/index.rst
    manage-hypervisor-storage/index.rst
-   plan-hypervisor-capacity.rst
+   plan-hypervisor-capacity/index.rst
    
