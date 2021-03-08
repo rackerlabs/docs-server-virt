@@ -5,6 +5,7 @@
 Datastore Overhead requirements
 ===============================
 
+
 We require that your system have a certain percentage of each VMFS
 datastore free at all times. The datastore overhead percentage depends
 on the total capacity of each datastore.
@@ -21,9 +22,8 @@ Refer to the following minimum recommended datastore overhead values:
 **Note:** If the datastore is subject to multiple criteria listed above,
 the criterion with the highest percentage takes priority.
 
-This section includes the following topics:
+This section also includes:
 
-- :ref:`Datastore overhead requirements <datastore-overhead-requirements>`
 - :ref:`Why is datastore overhead required? <why-is-datastore-overhead-required>`
 
 
