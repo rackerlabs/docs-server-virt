@@ -74,7 +74,7 @@ ____________________________________________________
 The following table identifies the roles and responsibilities for the
 customer and Rackspace Technology.
 
-+---------------+----------------------------------------+--------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------+
 | Category      | Customer                               | Rackspace Technology                             |                                                     |
 +===============+========================================+==================================================+
 | Backup        | Defines the backup and recovery        | Implements the appropriate hypervisor proxies,   |    
