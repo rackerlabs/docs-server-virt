@@ -17,11 +17,12 @@ on the vDisk is offline.
 To delete a vDisk from your VM, create a Rackspace Technology ticket
 that includes the following information:
 
-•	The name of the VM
-•	The vDisk number
-•	The vDisk size.
-•	The name of the datastore.
-•	If Rackspace Technology manages the OS, include the drive
-letter or partition. \
+* The name of the VM
+* The vDisk number
+* The vDisk size.
+* The name of the datastore.
+* If Rackspace Technology manages the OS, include the drive
+letter or partition.
+
 
 

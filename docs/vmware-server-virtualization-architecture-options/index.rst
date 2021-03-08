@@ -19,14 +19,14 @@ based on your requirements. Before the consultation, consider
 the following questions:
 
 * How many VMs do you need, and how many vRAM, vCPU, and storage resources
-  does each VM require?
+does each VM require?
 * What kind of performance and redundancy levels do you require for
-  the CPU and RAM compute layer in all operational hosts in case one of
-  the hosts in a cluster goes down, either unexpectedly or planned?
+the CPU and RAM compute layer in all operational hosts in case one of
+the hosts in a cluster goes down, either unexpectedly or planned?
 * What kind of storage performance and data redundancy levels
-  do you require?
+do you require?
 * What kind of network speed and network redundancy levels
-  do you require?
+do you require?
 
 The following diagram illustrates a common VMware Server Virtualization
 environment, where:

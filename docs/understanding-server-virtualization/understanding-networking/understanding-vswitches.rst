@@ -18,7 +18,7 @@ the maximum theoretical bandwidth for that VM is 1000 Gbps, rather than
 Your ESXi host usually has multiple vSwitches:
 
 * A vSwitch that is connected to an external network (this is the primary
-  connection for your VMs). \
+connection for your VMs). \
 * A vSwitch that is connected to a dedicated backup network.
 
 
