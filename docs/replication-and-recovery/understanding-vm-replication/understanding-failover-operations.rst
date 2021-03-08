@@ -11,13 +11,14 @@ Understanding failover operations
 There are two types of failover operations:
 
 * **Planned failover.** Use a planned failover when you want to move
-  to your secondary site. Regulatory purpose might require this kind of
-  failover, or you might need to prove that your business can operate
-  normally when running on a secondary site. To plan this, open a ticket
-  with Rackspace Technology.
-•	**Unplanned failover.** Use an unplanned failover when an unexpected
-  and adverse event occurs, and you need to fail over immediately.
-  Call Rackspace Technology for help with executing an unplanned failover.
+* to your secondary site. Regulatory purpose might require this kind of
+* failover, or you might need to prove that your business can operate
+* normally when running on a secondary site. To plan this, open a ticket
+* with Rackspace Technology.
+
+* **Unplanned failover.** Use an unplanned failover when an unexpected
+* and adverse event occurs, and you need to fail over immediately.
+* Call Rackspace Technology for help with executing an unplanned failover.
 
 During a failover, source VMs are shut down (if they are not already down).
 To move back to the original site, you must first do a reverse protection.
