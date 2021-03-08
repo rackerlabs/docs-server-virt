@@ -1,14 +1,7 @@
-<<<<<<< HEAD
-=======
-  
->>>>>>> 39531563d0933ee9c6796ebf734a57d6e02ced30
 Sphinx>=3.0
 sphinx-hoverxref>=0.2b1
 sphinx-notfound-page>=0.4
 sphinx_rtd_theme>=0.4
 algoliasearch>=2.0,<3.0
-<<<<<<< HEAD
-=======
 chios==0.1.5
 doc8==0.8.1
->>>>>>> 39531563d0933ee9c6796ebf734a57d6e02ced30
