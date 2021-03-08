@@ -116,7 +116,7 @@ To view the configuration of a VM, complete the following steps:
    `Rackspace Technology Customer Portal<https://login.rackspace.com/>`_
 2. In the **Products** drop-down menu, select
    **VMware Server Virtualization**.
-3. Select the VM for which you want to see the configuration.
+3. Select the VM for which you want to see the configuration. 
 A page displays the details of the VM.
 
 
