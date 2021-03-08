@@ -28,7 +28,7 @@ environment. This guide contains the following chapters:
    
 
    Rackspace Server Virtualization Solution Guide <self> 
-   understanding-server-virtualization/index.rst
+   understanding-server-virtualization.rst
    vmware-server-virtualization-architecture-options/index.rst
    understanding-roles-and-responsibilities/index.rst
    datastore-overhead-requirements/index.rst
