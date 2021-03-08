@@ -26,7 +26,7 @@ This chapter explains the following virtualization on VMware concepts:
 - :ref:`Understanding VMware vCenter <understanding-vmware-vcenter>`
 - :ref:`Understanding vCPU <understanding-vcpu>`
 - :ref:`Understanding vRAM <understanding-vram>`
-- :ref:`Understanding networking <understanding-networking>`
+- :ref:`Understanding networking <understanding-networking/index>`
 - :ref:`Understanding storage <understanding-storage>`
 - :ref:`Understanding snapshots <understanding-snapshots>`
 - :ref:`Understanding migrations using vMotion <understanding-migrations-using-vmotion>`

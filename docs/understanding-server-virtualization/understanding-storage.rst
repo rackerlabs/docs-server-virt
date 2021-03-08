@@ -1,6 +1,7 @@
 .. _understanding-storage:
 
 
+
 =====================
 Understanding storage
 =====================
