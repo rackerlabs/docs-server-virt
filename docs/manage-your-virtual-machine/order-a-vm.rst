@@ -72,13 +72,17 @@ after the VM has been provisioned. \
     a.	In the **Storage** section, complete the following steps: \
 
         a.	Select the **Root Storage Device**. This is the VMFS datastore \
+
 on which the first vDisk resides. For more information about \
 root storage device options, \
 see :ref:`understanding-storage`.
+
         b.	In the **Root Storage Size** field, enter the amount of storage \
+
 to add to the first vDisk of your VM. \
         c.	In the **Root Mountpoint** field, enter the root mount point \
 value. \
+
 The **Root Mountpoint** can auto-allocate, depending on \
 your selection. \
         d.	To add more vDisks, click **Add Storage**. \
