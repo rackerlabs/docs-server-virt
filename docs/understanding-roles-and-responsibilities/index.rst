@@ -18,7 +18,7 @@ managing them. For some tasks, you and Rackspace Technology
 share responsibility.
 
 +---------------+-----------------------------------------------------------------------------------+
-|               | Layer                                                                             |
+|                 Layer                                                                             |
 +---------------+-------------+-------------+-------------+-------------+-------------+-------------+
 | Service       | Physical    | ESXi        | VM          | Managed     | Managed     | Application |
 |               | server      |             | Container   | VM          | VM          |             |

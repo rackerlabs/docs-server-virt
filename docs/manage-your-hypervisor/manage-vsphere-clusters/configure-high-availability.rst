@@ -19,6 +19,7 @@ ticket and specify the HA action you want us to take, including:
 
 * Enable or disable HA and include the cluster name.
 * Set up VM overrides for HA
+
 **Note:** Provide us with the VM name and the HA override setting
 you want to apply to the VM.
 

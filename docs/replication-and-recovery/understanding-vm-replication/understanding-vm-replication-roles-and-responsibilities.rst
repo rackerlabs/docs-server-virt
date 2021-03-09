@@ -11,17 +11,13 @@ Understanding  VM   replication  roles  and  responsibilities
 The following list identifies the roles and responsibilities for
 Rackspace Technology VMware Server Virtualization VM replication:
 
-* **Rackspace Technology:** Rackspace Technology is responsible for performing
-  the task.
+* **Rackspace Technology:** Rackspace Technology is responsible for performing the task.
 * **Customer:** Customer is responsible for performing the task.
-* **Rackspace Technology (Customer Initiated:** Rackspace Technology is
-  responsible for performing the task, but we expect the Customer to
-  initiate the actions.
-* **Not Applicable:** The task or option is not applicable to the selected
-  edition.
+* **Rackspace Technology (Customer Initiated:** Rackspace Technology is responsible for performing the task, but we expect the Customer to initiate the actions.
+* **Not Applicable:** The task or option is not applicable to the selected edition.
 
 **Sizing**
-+----------------------------------------------------+-----------------------+------------------------+
++-----------------------------------------------------------------------------------------------------+
 | **Task**                                           | **LOCAL REPLICATION** | **REMOTE REPLICATION** |
 +====================================================+=======================+========================+
 | Size customer-required infrastructure for local    | Rackspace             | Rackspace              |

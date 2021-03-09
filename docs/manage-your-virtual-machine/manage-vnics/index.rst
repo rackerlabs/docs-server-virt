@@ -10,6 +10,7 @@ cards:ref:`understanding-vnics`.
 
 * **Public interface:** The public interface vNIC is the primary connection.
 * **Dedicated backup network interface:** If you subscribe to
+
 the Rackspace Technology managed backup service, the dedicated backup
 network vNIC is used for file backup traffic.
 
