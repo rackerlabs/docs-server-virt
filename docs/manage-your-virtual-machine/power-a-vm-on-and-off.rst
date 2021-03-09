@@ -22,10 +22,10 @@ the ticket accordingly.
 are not suspended when you use the OS to power off the VM.
 
 1. Log in to the Rackspace Technology Customer Portal and click
-   **Products > VMware Server Virtualization**.
+**Products > VMware Server Virtualization**.
 2. On the list of virtual machines, select the virtual machine
-   that you want to power on or off.
-   This action opens the VM’s details.
+that you want to power on or off.
+This action opens the VM’s details.
 3.	Click **Actions > Power VM**.
 4.	Click **Power Off Virtual Machine** or **Power On Virtual Machine**.
 

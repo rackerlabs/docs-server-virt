@@ -11,7 +11,7 @@ Rackspace VMware Server Virtualization. Rackspace Technology offers
 the following options to assist with that migration.
 
 * **Customer Managed Migration:** We can provision new VMs for you to
-  perform manual data migration.
+perform manual data migration.
 
 You can send physical media to us to import existing OVA/OVF file(s)
 into your VMware Server Virtualization environment. Unless you reconfigure
@@ -21,7 +21,7 @@ For more information about the reconfiguration process,
 consult your account team.
 
 * **Professional Services Migration:** You can work with our Professional
-  Services team to design, plan, and migrate existing workloads into
-  VMware Server Virtualization environments. Refer to `Professional Services
-  <https://www.rackspace.com/professional-services/migrations/>`_
-  for more information on Professional Services engagements.
+Services team to design, plan, and migrate existing workloads into
+VMware Server Virtualization environments. Refer to `Professional Services
+<https://www.rackspace.com/professional-services/migrations/>`_
+for more information on Professional Services engagements.

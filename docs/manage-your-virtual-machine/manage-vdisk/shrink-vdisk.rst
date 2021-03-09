@@ -13,7 +13,7 @@ steps:
 
 1. Request that we add a smaller vDisk to a datastore. :ref:`add-vdisk`.
 2. Request that we migrate your data from the larger vDisk to the smaller
-   vDisk.
+vDisk.
 3. Request that we delete the larger vDisk :ref:`delete-vdisk`.
 
 For vDisks that serve as a system partition in the OS, you can request 

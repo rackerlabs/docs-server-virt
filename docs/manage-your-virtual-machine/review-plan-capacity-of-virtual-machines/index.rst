@@ -26,6 +26,7 @@ This section includes the following topics:
    review-performance-metrics-of-vm.rst
    view-vm-configurations.rst
 
+<<<<<<< HEAD
 
 
 .. _what-is-capacity-planning:
@@ -128,3 +129,5 @@ A page displays the details of the VM.
 
 
 
+=======
+>>>>>>> upstream/main

@@ -14,9 +14,9 @@ You can request that we modify the following two vNIC
 connection settings:
 
 * **Current connection state:** By default, a vNIC is connected.
-  A disconnected vNIC is offline and does not transmit data.
+A disconnected vNIC is offline and does not transmit data.
 * **Connect at power on:** By default, a vNIC connects when the
-  VM powers on. If the vNIC does not connect at power on, then
+VM powers on. If the vNIC does not connect at power on, then
 you must manually start the vNIC.
 
 Though we rarely need to modify these, we might have to change these

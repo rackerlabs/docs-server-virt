@@ -26,9 +26,9 @@ The following forms of migration are available depending on what you
 need to move:
 
 * **vMotion:** vMotion is the technology that we use to migrate a VM from
-  one ESXi host to another ESXi host. Depending on the circumstances,
-  the migration can occur either offline or online. DRS uses vMotion
-  automatically to balance the load between ESXi hosts.
+one ESXi host to another ESXi host. Depending on the circumstances,
+the migration can occur either offline or online. DRS uses vMotion
+automatically to balance the load between ESXi hosts.
 
 * **Storage vMotion:** Storage vMotion migrates a VM from one VMFS
 datastore to another. The target datastore must have sufficient space.
@@ -37,5 +37,5 @@ system might experience performance degradation during the
 migration operation.
 
 * **vMotion without Shared Storage:** vMotion without Shared Storage
-  combines vMotion and storage vMotion. vMotion without Shared Storage is
-  most commonly used for migration between two standalone hypervisors.
+combines vMotion and storage vMotion. vMotion without Shared Storage is
+most commonly used for migration between two standalone hypervisors.

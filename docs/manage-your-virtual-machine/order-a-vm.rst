@@ -19,7 +19,7 @@ after the VM is available.
 Before you begin, ensure that you are familiar with the following items:
 
 * The compute destination of the VM (such as a vSphere cluster or
-   standalone ESXi server)
+standalone ESXi server)
 * The OS version you want (Windows and various Linux distributions)
 * The network on which to connect the VM
 * Port group names
@@ -36,14 +36,14 @@ Complete the following steps to order a VM:
 
 1. Log in to the Rackspace Technology Customer Portal.
 2. In the **Products drop-down** menu, select
-   **VMware Server Virtualization.**
+**VMware Server Virtualization.**
 3. On the center panel, click **Order Virtual Machine.**
-   **The New Virtual Machine** order form appears.
+**The New Virtual Machine** order form appears.
 4. In the **Deployment Destination** field, select the
-   vSphere Cluster or ESXi
-   host to which you want to add the VM.
+vSphere Cluster or ESXi
+host to which you want to add the VM.
 5. In the **Image section**, select an operating system (OS) image you
-   want to use. Only the supported OSs on the destination are visible.
+want to use. Only the supported OSs on the destination are visible.
 6.	In the **Configuration section**, complete the following steps:
 
       a.	Select a vCPU value. For more information about vCPU, \
