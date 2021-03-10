@@ -22,13 +22,11 @@ This section contains the following topics:
 
 
 .. toctree::
-   :maxdepth: 2
-   :hidden:
+    :maxdepth: 2
+    :hidden:
 
    
-   understanding-vm-recovery-key-features.rst
-   understanding-vm-recovery-architecture.rst
-   understanding-vm-recovery-roles-and-responsibilities.rst
-   understanding-vm-recovery-technical-requirements-and-limitations.rst
-
-
+    understanding-vm-recovery-key-features.rst
+    understanding-vm-recovery-architecture.rst
+    understanding-vm-recovery-roles-and-responsibilities.rst
+    understanding-vm-recovery-technical-requirements-and-limitations.rst

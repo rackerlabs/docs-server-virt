@@ -31,6 +31,6 @@ This section includes the following topics:
    expand-luns.rst
    shrink-hypervisor-storage.rst
    expand-vmfs-datastore.rst
-   manage-host-bus-adapter.rst
+   manage-host-bus-adapters.rst
   
 

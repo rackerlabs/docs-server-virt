@@ -18,16 +18,12 @@ a fresh VM deploys.
 on your VM, ensure that you save it elsewhere. The VM is unavailable
 for several hours while it is reimaged.
 
-1. Log in to the Rackspace Technology Customer Portal and click
-**Products > VMware Server Virtualization**.
-2. On the list of virtual machines, select the virtual machine
-you want to reimage.
-This action opens the virtual machine's details.
+1. Log in to the Rackspace Technology Customer Portal and click **Products > VMware Server Virtualization**.
+2. On the list of virtual machines, select the virtual machine you want to reimage.
+   This action opens the virtual machine's details.
 3. Click **Actions > Re-image VM**.
 4. Enter any special instructions to include in the support ticket.
-
 5. Click **Request Re-Image**.
-This action creates a ticket that you can use to track your request.
+   This action creates a ticket that you can use to track your request.
 
-**Note**: You can also click the cog icon ( ) next to the VM on the
-**Virtual Machine list** to access the **Actions** drop-down menu.
+   **Note**: You can also click the *cog icon* next to the VM on the **Virtual Machine list** to access the **Actions** drop-down menu.

@@ -39,3 +39,4 @@ environment. This guide contains the following chapters:
    manage-your-hypervisor/index.rst
    replication-and-recovery/index.rst
    maintain-your-environment/index.rst
+   appendix-1-licensing.rst

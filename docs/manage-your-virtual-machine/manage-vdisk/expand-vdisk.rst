@@ -21,6 +21,5 @@ following information:
 * The name of the VM
 * The vDisk number
 * The current vDisk size and the amount of space you want to add
-* If Rackspace Technology manages the OS, include the drive letter or
-partition.
+* If Rackspace Technology manages the OS, include the drive letter or partition.
 

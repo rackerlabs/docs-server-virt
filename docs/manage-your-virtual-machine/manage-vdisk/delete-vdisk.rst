@@ -21,8 +21,7 @@ that includes the following information:
 * The vDisk number
 * The vDisk size.
 * The name of the datastore.
-* If Rackspace Technology manages the OS, include the drive
-letter or partition.
+* If Rackspace Technology manages the OS, include the drive letter or partition.
 
 
 
