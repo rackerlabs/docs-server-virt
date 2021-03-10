@@ -34,3 +34,15 @@ This chapter contains the following sections:
 
 - :ref:`ESXi patching <esxi-patching>`
 - :ref:`OS patching <os-patching>`
+
+
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   
+
+   
+   esxi-patching.rst
+   os-patching.rst
+   

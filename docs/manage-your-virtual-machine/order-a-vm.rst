@@ -62,8 +62,8 @@ a. In the **Storage** section, complete the following steps:
    c. In the **Root Mountpoint** field, enter the root mount point value.
       The **Root Mountpoint** can auto-allocate, depending on your selection.
    d. To add more vDisks, click **Add Storage**, and repeat these steps.
-7. In the **Security** section, under **Security Options**, select the desired option.
-   We recommend that you select **Armor Anywhere** to protect yourself from ransomware.
+
+7. In the **Security** section, under **Security Options**, select the desired option. We recommend that you select **Armor Anywhere** to protect yourself from ransomware.
 
 8. In the **Identification** section, in the **Virtual Machine Name** field, enter the virtual machine name.
 

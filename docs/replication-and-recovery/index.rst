@@ -14,15 +14,15 @@ including:
   
 This chapter contains the following sections: 
 
+
 - :ref:`Understanding VM replication <understanding-vm-replication>`
 - :ref:`Understanding VM recovery <understanding-vm-recovery>`
 
-This chapter includes the following sections:
 
 .. toctree::
-   :maxdepth: 2
-   :hidden:
+    :maxdepth: 2
+    :hidden:
 
-   understanding-vm-replication/index.rst
-   understanding-vm-recovey/index.rst
+    understanding-vm-replication/index.rst
+    understanding-vm-recovery/index.rst
    
