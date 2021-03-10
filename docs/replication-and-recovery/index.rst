@@ -20,9 +20,9 @@ This chapter contains the following sections:
 
 
 .. toctree::
-    :maxdepth: 2
-    :hidden:
+   :maxdepth: 2
+   :hidden:
 
-    understanding-vm-replication/index.rst
-    understanding-vm-recovery/index.rst
+   understanding-vm-replication/index.rst
+   understanding-vm-recovery/index.rst
    

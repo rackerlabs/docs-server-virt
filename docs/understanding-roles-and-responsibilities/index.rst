@@ -24,7 +24,7 @@ share responsibility.
 | Service              | Physical server      | ESXi                 | VM Container         | Managed VM Supported | Managed VM           | Application          |
 |                      |                      |                      | Container            | OS                   | Unsupported OS       |                      |
 +======================+======================+======================+======================+======================+======================+======================+
-| **Provisioning**                                                                                                                                               |
+|                                                             **Provisioning**                                                                                   |
 +----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+
 | Manage delivery of   | Rackspace            | N/A                  | N/A                  | N/A                  | N/A                  | N/A                  |
 | equipment            |                      |                      |                      |                      |                      |                      | 

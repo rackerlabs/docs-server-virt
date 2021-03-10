@@ -33,7 +33,7 @@ ticket and request a consultation with us.
 
 Complete the following steps to order a VM:
 
-1. Log in to the Rackspace Technology Customer Portal.
+1. Log in to the `Rackspace Customer Portal <https://login.rackspace.com/>`_
 2. In the **Products drop-down** menu, select **VMware Server Virtualization.**
 3. On the center panel, click **Order Virtual Machine.** 
    
@@ -57,21 +57,21 @@ Complete the following steps to order a VM:
 
 a. In the **Storage** section, complete the following steps:
 
-   a. Select the **Root Storage Device**. This is the VMFS datastore on which the first vDisk resides. For more information about root storage device options, see :ref:`understanding-storage`.
-   b. In the **Root Storage Size** field, enter the amount of storage to add to the first vDisk of your VM.
-   c. In the **Root Mountpoint** field, enter the root mount point value.
-      The **Root Mountpoint** can auto-allocate, depending on your selection.
-   d. To add more vDisks, click **Add Storage**, and repeat these steps.
+
+      a. Select the **Root Storage Device** This is the VMFS datastore on which the first vDisk resides. For more information about root storage device options, see :ref:`understanding-storage`.
+      b. In the **Root Storage Size** field, enter the amount of storage to add to the first vDisk of your VM.
+      c. In the **Root Mountpoint** field, enter the root mount point value.
+         The **Root Mountpoint** can auto-allocate, depending on your selection.
+      d. To add more vDisks, click **Add Storage**, and repeat these steps.
 
 7. In the **Security** section, under **Security Options**, select the desired option. We recommend that you select **Armor Anywhere** to protect yourself from ransomware.
 
 8. In the **Identification** section, in the **Virtual Machine Name** field, enter the virtual machine name.
+   
+      The virtual machine name must be 6 to 70 characters long. If you are creating a Windows-based VM, the hostname
+      cannot be longer than 8 characters.
 
- The virtual machine name must be 6 to 70 characters long. If you
- are creating a Windows-based VM, the hostname cannot be longer
- than 8 characters.
-
- **Note:** The system automatically adds a 6- or 7-digit Rackspace device number prefix to the VM name.
+    **Note:** The system automatically adds a 6- or 7-digit Rackspace device number prefix to the VM name.
 
 9. In the **Addon Services** section, in the Managed Backup field, select your desired option for backups.
 
