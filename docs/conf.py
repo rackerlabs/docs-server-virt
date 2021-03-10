@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-RACKSPACE TECHNOLOGY CUSTOMER PORTAL ONBOARDING GUIDE build configuration file.
+RACKSPACE TECHNOLOGY SERVER VIRTUALIZATION SOLUTION GUIDE build configuration file.
 
 This file is execfile()d with the current directory set to its
 containing dir.
@@ -101,8 +101,8 @@ linkcheck_ignore = ['https://pages.github.rackspace.com*',
 linkcheck_anchors = False
 
 # General information about the project.
-project = 'Rackspace Technology customer portal onboarding guide'
-copyright = '2020, Rackspace Technology'
+project = 'Rackspace Technology Server Virtualization Solution Guide'
+copyright = '2021, Rackspace Technology'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -118,7 +118,7 @@ release = "1.0"
 # Global variables that are replaced by the specified value during the build
 # process.
 rst_epilog = """
-.. |service| replace:: RACKSPACE TECHNOLOGY CUSTOMER PORTAL ONBOARDING GUIDE
+.. |service| replace:: RACKSPACE TECHNOLOGY SERVER VIRTUALIZATION SOLUTION GUIDE
 """
 
 # sphinxcontrib-versioning options
@@ -219,11 +219,11 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = 'Rackspace Technology customer portal onboarding guide'
+html_title = 'Rackspace Technology Server Virtualization Solution Guide'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 # html_short_title = None
-html_short_title = 'Rackspace Technology customer portal onboarding guide'
+html_short_title = 'Rackspace Technology Server Virtualization Solution Guide'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
@@ -298,6 +298,6 @@ html_style = 'css/styles.css'
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Rackspace Technology customer portal onboarding guide'
+htmlhelp_basename = 'Rackspace Technology Server Virtualization Solution Guide'
 # this will change the 'paragraph' character to '#'
 html_add_permalinks = '#'
