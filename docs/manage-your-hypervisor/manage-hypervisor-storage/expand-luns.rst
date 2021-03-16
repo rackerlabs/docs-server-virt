@@ -7,7 +7,7 @@ Expand LUNs
 ===========
 
 
-If you have requested that we expand your vDisk:ref:`understanding-storage`
+If you have requested that we expand your vDisk :ref:`understanding-storage`
 or you have added VMs,we might recommend or require that you expand your
 shared storage. Expanding a LUN :ref:`understanding-storage` comes with an
 additional cost.
