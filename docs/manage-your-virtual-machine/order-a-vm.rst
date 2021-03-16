@@ -36,16 +36,13 @@ Complete the following steps to order a VM:
 1. Log in to the `Rackspace Customer Portal <https://login.rackspace.com/>`_
 2. In the **Products drop-down** menu, select **VMware Server Virtualization.**
 3. On the center panel, click **Order Virtual Machine.** 
-   
    **The New Virtual Machine** order form appears.
 4. In the **Deployment Destination** field, select the vSphere Cluster or ESXi host to which you want to add the VM.
 5. In the **Image section**, select an operating system (OS) image you want to use. Only the supported OSs on the destination are visible.
 6. In the **Configuration section**, complete the following steps:
 
    a. Select a vCPU value. For more information about vCPU, see :ref:`understanding-vcpu`. You can change this value after the VM has been provisioned.
-
    b. Select a vRAM value. For more information about vRAM, see :ref:`understanding-vram`.
-
    c. Select a network.
 
       The list contains networks that you have requested we create for you. We custom make these networks for your environment.
@@ -56,8 +53,6 @@ Complete the following steps to order a VM:
       **Note:** After you place the order, you cannot change your selection until we fulfill the order. If you are unsure of which domain to select, open a ticket and request a consultation.
 
 a. In the **Storage** section, complete the following steps:
-
-
       a. Select the **Root Storage Device** This is the VMFS datastore on which the first vDisk resides. For more information about root storage device options, see :ref:`understanding-storage`.
       b. In the **Root Storage Size** field, enter the amount of storage to add to the first vDisk of your VM.
       c. In the **Root Mountpoint** field, enter the root mount point value.
@@ -71,7 +66,7 @@ a. In the **Storage** section, complete the following steps:
       The virtual machine name must be 6 to 70 characters long. If you are creating a Windows-based VM, the hostname
       cannot be longer than 8 characters.
 
-    **Note:** The system automatically adds a 6- or 7-digit Rackspace device number prefix to the VM name.
+      **Note:** The system automatically adds a 6- or 7-digit Rackspace device number prefix to the VM name.
 
 9. In the **Addon Services** section, in the Managed Backup field, select your desired option for backups.
 
@@ -86,3 +81,5 @@ a. In the **Storage** section, complete the following steps:
 12. Accept the terms and then click **Order Virtual Machine** or **Order Virtual Machines**. If the button is greyed out, there is a problem with the current selection. For example, you might have insufficient resources or a compatibility issue. Review your options and try selecting another option or speak to the Virtualization team for assistance.
 
     Placing an order sends a ticket to your Rackspace VMware Support team specialist. To track the progress of your order, see :ref:`track-a-vm-order`.
+
+
