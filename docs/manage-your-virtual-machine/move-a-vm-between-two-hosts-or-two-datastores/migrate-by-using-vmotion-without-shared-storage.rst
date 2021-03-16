@@ -18,8 +18,7 @@ vMotion without Shared Storage does not require shared objects.
 
 vMotion without Shared Storage is applicable when you want to:
 
-* Migrate a VM between two standalone hypervisors that only have
-  local storage available.
+* Migrate a VM between two standalone hypervisors that only have local storage available.
 * Migrate between two vSphere clusters where each cluster has a separate
 * set of shared datastores.
 
@@ -28,7 +27,5 @@ two vSphere clusters. In this case,  a VM and associated vDisk migrate from
 one vSphere cluster with one set of shared datastores to another vSphere
 with a different set of shared datastores.
 
-
-
-.. image:: Picture6.png
+.. image:: vsphere-cluster3.png
 

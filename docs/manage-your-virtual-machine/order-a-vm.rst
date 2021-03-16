@@ -53,11 +53,11 @@ Complete the following steps to order a VM:
       **Note:** After you place the order, you cannot change your selection until we fulfill the order. If you are unsure of which domain to select, open a ticket and request a consultation.
 
 a. In the **Storage** section, complete the following steps:
-      a. Select the **Root Storage Device** This is the VMFS datastore on which the first vDisk resides. For more information about root storage device options, see :ref:`understanding-storage`.
-      b. In the **Root Storage Size** field, enter the amount of storage to add to the first vDisk of your VM.
-      c. In the **Root Mountpoint** field, enter the root mount point value.
-         The **Root Mountpoint** can auto-allocate, depending on your selection.
-      d. To add more vDisks, click **Add Storage**, and repeat these steps.
+
+   a. Select the **Root Storage Device** This is the VMFS datastore on which the first vDisk resides. For more information about root storage device options, see :ref:`understanding-storage`.
+   b. In the **Root Storage Size** field, enter the amount of storage to add to the first vDisk of your VM.
+   c. In the **Root Mountpoint** field, enter the root mount point value. The **Root Mountpoint** can auto-allocate, depending on your selection.
+   d. To add more vDisks, click **Add Storage**, and repeat these steps.
 
 7. In the **Security** section, under **Security Options**, select the desired option. We recommend that you select **Armor Anywhere** to protect yourself from ransomware.
 

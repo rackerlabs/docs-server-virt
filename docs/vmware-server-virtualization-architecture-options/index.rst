@@ -30,4 +30,4 @@ environment, where:
 * Each ESXi host is connected to storage and networking. The VMs also use these resources.
 * The VMs can be different sizes but do not span across ESXi hosts. VMs can vMotion between ESXi hosts. For more information about vMotion, refer to :ref:`move-a-vm-between-two-hosts-or-two-datastores`.
 
-.. image:: Picture1.png
+.. image:: server-virt-arch-options.png
