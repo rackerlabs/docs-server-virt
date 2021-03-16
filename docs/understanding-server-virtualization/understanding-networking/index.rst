@@ -11,7 +11,7 @@ when you use Rackspace Server Virtualization.
 The following diagram illustrates virtual and physical networking components
 and their relationships to each other:
 
-.. image:: Picture1.png
+.. image:: understanding-networking.png
 
 
 This section explains the following concepts:

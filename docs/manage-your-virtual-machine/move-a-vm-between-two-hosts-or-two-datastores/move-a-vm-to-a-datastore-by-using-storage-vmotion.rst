@@ -26,7 +26,7 @@ your environment.
 The following diagram illustrates a vDisk migration from one LUN or
 datastore to another LUN or datastore.
 
-.. image:: vsphere-cluster2.png
+.. image:: cluster.png
 
 To request a storage vMotion, open a Rackspace Technology ticket and
 specify the following information:
