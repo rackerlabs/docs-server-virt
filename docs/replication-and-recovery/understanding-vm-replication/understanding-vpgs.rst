@@ -50,9 +50,9 @@ following properties:
 
       For example, suppose the VPG includes a database, application tier, and web server tier, and the database must be available before the application tier or web server. In that case, you can set the database boot order to 1, application tier to 2, and web server to 3.
 
-   * Failover IP range: 
+   * **Failover IP range:**
 
-      * **Private:** By default, and subject to availability, when a VM fails over to the target site, we set the private IPs to match the source IPs. You can customize this to a different IP.
-      * **Public:** When a VM fails over to the target site, its public IP address is automatically changed. Public Blocks are assigned out of the target site location.
+     * **Private:** By default, and subject to availability, when a VM fails over to the target site, we set the private IPs to match the source IPs. You can customize this to a different IP.
+     * **Public:** When a VM fails over to the target site, its public IP address is automatically changed. Public Blocks are assigned out of the target site location.
 
 

@@ -33,18 +33,17 @@ as ProdCRM, to represent your Production CRM application.
   the desired journal history target might be automatically deleted
   if there is insufficient space.
 
-  * **Boot order:** The order in which the VMs contained within a VPG boot
-    upon recovery. VMs boot in ascending order.
+* **Boot order:** The order in which the VMs contained within a VPG boot upon recovery. VMs boot in ascending order.
 
-    For example, if the VPG includes a database, application tier,
-    and web server tier and the database must be available before
-    the application tier or web server, you can set the database boot order
-    to 1, application tier to 2, and web server to 3.
+  For example, if the VPG includes a database, application tier,
+  and web server tier and the database must be available before
+  the application tier or web server, you can set the database boot order
+  to 1, application tier to 2, and web server to 3.
 
-  * **Use bubble network:** If the VMs are configured to use a
-    bubble network, you can’t access them. However, we verify via console
-    if the OS has booted up successfully. A bubble network is an isolated
-    network which isn’t connected to any other network.
+* **Use bubble network:** If the VMs are configured to use a
+  bubble network, you can’t access them. However, we verify via console
+  if the OS has booted up successfully. A bubble network is an isolated
+  network which isn’t connected to any other network.
 
 During the test, the source site continues to run normally, and any
 changes you make on the target site are discarded at the end of the test.

@@ -73,10 +73,10 @@ a. In the **Storage** section, complete the following steps:
 10. If you agree with and accept our terms and conditions, click **Confirm**.
 11. To order multiple VMs with the same configuration, complete the following steps:
 
-    a. Select **Order multiple Virtual Machines with a similar configuration** and click **Next Step**.
-    b. Click **Add Virtual Machine Copies.**
-    c. Choose between **Exact Copies** or **Modified Copies.** If you select Modified copies, you can now make changes to these additional VMs.
-    d. Enter the desired number of copies in the **Quantity** field, then click **Copy Virtual Machine.**
+    a.	Select **Order multiple Virtual Machines with a similar configuration** and click **Next Step**.
+    b.   Click **Add Virtual Machine Copies**.
+    c.   Choose between **Exact Copies** or **Modified Copies**. If you select Modified copies, you can now make changes to these additional VMs.
+    d.   Enter the desired number of copies in the **Quantity** field, then click **Copy Virtual Machine**.
 
 12. Accept the terms and then click **Order Virtual Machine** or **Order Virtual Machines**. If the button is greyed out, there is a problem with the current selection. For example, you might have insufficient resources or a compatibility issue. Review your options and try selecting another option or speak to the Virtualization team for assistance.
 

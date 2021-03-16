@@ -16,7 +16,7 @@ Request a vMotion when you want to:
 The following diagram illustrates a VM migration process between two
 ESXi hosts in a cluster.
 
-.. image:: Picture4.png
+.. image:: vsphere-cluster.png
 
 **Important:**
 
