@@ -1,10 +1,10 @@
-.. _review-plan-capacity-of-virtual-machines:
+.. _plan-vm-capacity:
 
 
 
-========================================
-Review plan capacity of virtual machines
-========================================
+================
+Plan VM capacity
+================
 
 We provide performance metrics and usage statistics for VMs and ESXi hosts.
 The statistics provides insight into how your environment is performing,

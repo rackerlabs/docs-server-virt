@@ -2,7 +2,7 @@
 
 
 ==================================================
-Migrate a workload to VMware Server virtualization
+Migrate a workload to VMware Server Virtualization
 ==================================================
 
 When you become a Rackspace Technology customer, you might already
