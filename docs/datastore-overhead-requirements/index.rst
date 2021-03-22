@@ -22,7 +22,7 @@ Refer to the following minimum recommended datastore overhead values:
 **Note:** If the datastore is subject to multiple criteria listed above,
 the criterion with the highest percentage takes priority.
 
-This section also includes:
+
 
 - :ref:`Why is datastore overhead required? <why-is-datastore-overhead-required>`
 
