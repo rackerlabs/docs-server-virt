@@ -21,20 +21,6 @@ and their relationships to each other:
 - :ref:`Understanding vNICs <understanding-vnics>`
 
 
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-
-   understanding-vswitches.rst
-   understanding-uplinks.rst
-   understanding-port-groups.rst
-   understanding-vnics.rst
-
-
-
-
-
 .. _understanding-vswitches:
 
 
