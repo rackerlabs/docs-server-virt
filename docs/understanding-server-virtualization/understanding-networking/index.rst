@@ -13,7 +13,7 @@ and their relationships to each other:
 
 .. image:: understanding-networking.png
 
-This section explains the following concepts:
+
 
 - :ref:`Understanding vSwitches <understanding-vswitches>`
 - :ref:`Understanding uplinks <understanding-uplinks>`
