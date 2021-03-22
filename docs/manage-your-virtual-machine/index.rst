@@ -34,7 +34,7 @@ This chapter contains the following sections:
 - :ref:`Move a VM between two hosts or two datastores <move-a-vm-between-two-hosts-or-two-datastores>`
 - :ref:`Upgrade a VM <upgrade-a-vm>`
 - :ref:`Rename a VM <rename-a-vm>`
-- :ref:`Review plan capacity of virtual machines <review-plan-capacity-of-virtual-machines>`
+- :ref:`Plan-VM-Capacity <plan-vm-capacity>`
 
 
 
@@ -57,5 +57,5 @@ This chapter contains the following sections:
   move-a-vm-between-two-hosts-or-two-datastores/index.rst
   upgrade-a-vm/index.rst
   rename-a-vm.rst
-  review-plan-capacity-of-virtual-machines/index.rst
+  plan-vm-capacity/index.rst
   

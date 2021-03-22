@@ -1,9 +1,7 @@
 .. _understanding-server-virtualization:
 
-
-
 ===================================
-Understanding Server Virtualization
+Understanding server virtualization
 ===================================
 
 A virtual server runs inside a virtual machine (VM) instead of a physical
@@ -49,5 +47,3 @@ This chapter explains the following virtualization on VMware concepts:
   understanding-storage.rst
   understanding-snapshots.rst
   understanding-migrations-using-vmotion.rst
-
-
