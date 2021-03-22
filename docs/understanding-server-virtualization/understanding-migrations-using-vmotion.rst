@@ -2,7 +2,7 @@
 
 
 ======================================
-Understanding migrations using vmotion
+Understanding migrations using vMotion
 ======================================
 
 There are two forms of VM migration to consider when working with
