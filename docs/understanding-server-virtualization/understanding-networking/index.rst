@@ -24,9 +24,9 @@ and their relationships to each other:
 .. _understanding-vswitches:
 
 
-=======================
+
 Understanding vSwitches
-=======================
+_______________________
 
 Within ESXi, a vSwitch is a virtual switch, which is a logical construct
 that provides a link between uplinks and port groups. A vSwitch can use
@@ -49,9 +49,8 @@ Your ESXi host usually has multiple vSwitches:
 
 
 
-=====================
 Understanding uplinks
-=====================
+_____________________
 
 An uplink is the physical interface between the hypervisor and the
 physical switch. An uplink is assigned to only one vSwitch. You can
@@ -61,9 +60,9 @@ physical network ports on the hypervisor.
 .. _understanding-port-groups:
 
 
-=========================
+
 Understanding port groups
-=========================
+_________________________
 
 A port group is a logical construct on the vSwitch to which vNICs can
 connect. A port group typically has a name and a VLAN ID. You can see
@@ -77,9 +76,9 @@ One port group can serve multiple vNICs.
 .. _understanding-vnics:
 
 
-===================
+
 Understanding vNICs
-===================
+___________________
 
 
 A vNIC, or virtual network interface card, is a piece of the VM’s virtual
