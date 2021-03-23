@@ -13,13 +13,11 @@ separate guide. Refer to
 <https://docs.rackspace.com/support/how-to/manage-user-permissions-for-dedicated-hosting/>`_.
 for instructions about managing user permissions.
 
-- :ref:`Credentials management <credentials-management>`
 
-.. _credentials-management:
 
-======================
+
 Credentials management
-======================
+______________________
 
 
 

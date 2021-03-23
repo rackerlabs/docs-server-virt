@@ -24,15 +24,13 @@ the criterion with the highest percentage takes priority.
 
 
 
-- :ref:`Why is datastore overhead required? <why-is-datastore-overhead-required>`
-
 
 .. _why-is-datastore-overhead-required:
 
 
-===================================
+
 Why is datastore overhead required?
-===================================
+___________________________________
 
 
 We require datastore overhead for the following reasons:
