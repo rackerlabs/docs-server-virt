@@ -34,7 +34,7 @@ This chapter contains the following sections:
 - :ref:`Move a VM between two hosts or two datastores <move-a-vm-between-two-hosts-or-two-datastores>`
 - :ref:`Upgrade a VM <upgrade-a-vm>`
 - :ref:`Rename a VM <rename-a-vm>`
-- :ref:`Plan-VM-Capacity <plan-vm-capacity>`
+- :ref:`Plan VM Capacity <plan-vm-capacity>`
 
 
 

@@ -22,9 +22,24 @@ This Solution Guide provides conceptual information and procedural
 instructions you can use to manage your VMware Server Virtualization
 environment. This guide contains the following chapters:
 
+- :ref:`Understanding Server Virtualization <understanding-server-virtualization>`
+- :ref:`VMware Server Virtualization architecture options <vmware-server-virtualization-architecture-options>`
+- :ref:`Understanding roles and responsibilities <understanding-roles-and-responsibilities>`
+- :ref:`Datastore overhead requirements <datastore-overhead-requirements>`
+- :ref:`Migrate a workload to VMware Server Virtualization <migrate-a-workload-to-vmware-server-virtualization>`
+- :ref:`Log in to the Rackspace Technology Customer Portal <log-in-to-the-rackspace-technology-customer-portal>`
+- :ref:`Manage Rackspace Technology Customer Portal users <manage-rackspace-technology-customer-portal-users>`
+- :ref:`Manage your virtual machine <manage-your-virtual-machine>`
+- :ref:`Manage your hypervisor <manage-your-hypervisor>`
+- :ref:`Replication and recovery <replication-and-recovery>`
+- :ref:`Maintain your environment <maintain-your-environment>`
+- :ref:`Appendix 1 licensing <appendix-1-licensing>`
+
+
 
 .. toctree::
    :maxdepth: 2
+   :hidden:
    
    understanding-server-virtualization/index.rst
    vmware-server-virtualization-architecture-options/index.rst

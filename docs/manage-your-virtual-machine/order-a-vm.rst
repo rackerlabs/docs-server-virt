@@ -52,33 +52,33 @@ Complete the following steps to order a VM:
 
       **Note:** After you place the order, you cannot change your selection until we fulfill the order. If you are unsure of which domain to select, open a ticket and request a consultation.
 
-a. In the **Storage** section, complete the following steps:
+7. In the **Storage** section, complete the following steps:
 
    a. Select the **Root Storage Device** This is the VMFS datastore on which the first vDisk resides. For more information about root storage device options, see :ref:`understanding-storage`.
    b. In the **Root Storage Size** field, enter the amount of storage to add to the first vDisk of your VM.
    c. In the **Root Mountpoint** field, enter the root mount point value. The **Root Mountpoint** can auto-allocate, depending on your selection.
    d. To add more vDisks, click **Add Storage**, and repeat these steps.
 
-7. In the **Security** section, under **Security Options**, select the desired option. We recommend that you select **Armor Anywhere** to protect yourself from ransomware.
+8. In the **Security** section, under **Security Options**, select the desired option. We recommend that you select **Armor Anywhere** to protect yourself from ransomware.
 
-8. In the **Identification** section, in the **Virtual Machine Name** field, enter the virtual machine name.
+9. In the **Identification** section, in the **Virtual Machine Name** field, enter the virtual machine name.
    
       The virtual machine name must be 6 to 70 characters long. If you are creating a Windows-based VM, the hostname
       cannot be longer than 8 characters.
 
       **Note:** The system automatically adds a 6- or 7-digit Rackspace device number prefix to the VM name.
 
-9. In the **Addon Services** section, in the Managed Backup field, select your desired option for backups.
+10. In the **Addon Services** section, in the Managed Backup field, select your desired option for backups.
 
-10. If you agree with and accept our terms and conditions, click **Confirm**.
-11. To order multiple VMs with the same configuration, complete the following steps:
+11. If you agree with and accept our terms and conditions, click **Confirm**.
+12. To order multiple VMs with the same configuration, complete the following steps:
 
     a.	Select **Order multiple Virtual Machines with a similar configuration** and click **Next Step**.
     b.   Click **Add Virtual Machine Copies**.
     c.   Choose between **Exact Copies** or **Modified Copies**. If you select Modified copies, you can now make changes to these additional VMs.
     d.   Enter the desired number of copies in the **Quantity** field, then click **Copy Virtual Machine**.
 
-12. Accept the terms and then click **Order Virtual Machine** or **Order Virtual Machines**. If the button is greyed out, there is a problem with the current selection. For example, you might have insufficient resources or a compatibility issue. Review your options and try selecting another option or speak to the Virtualization team for assistance.
+13. Accept the terms and then click **Order Virtual Machine** or **Order Virtual Machines**. If the button is greyed out, there is a problem with the current selection. For example, you might have insufficient resources or a compatibility issue. Review your options and try selecting another option or speak to the Virtualization team for assistance.
 
     Placing an order sends a ticket to your Rackspace VMware Support team specialist. To track the progress of your order, see :ref:`track-a-vm-order`.
 
