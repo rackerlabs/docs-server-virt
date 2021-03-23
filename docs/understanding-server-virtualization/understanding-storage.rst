@@ -28,7 +28,7 @@ and sharing two raw device LUNs. The pointer files, which reside on the
 VMFS Datastores alongside the vDisks, act as a proxy between the LUNs and
 the VMs.
 
-.. image:: u-storage2.png 
+.. image:: understanding-storage2.png 
 
 
 

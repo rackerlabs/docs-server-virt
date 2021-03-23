@@ -1,4 +1,4 @@
-.. _understanding_roles_and_responsibilities:
+.. _understanding-roles-and-responsibilities:
 
 
 
