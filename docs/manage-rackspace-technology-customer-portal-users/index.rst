@@ -14,6 +14,11 @@ separate guide. Refer to
 for instructions about managing user permissions.
 
 
+- :ref:`Credentials-management <credentials-management>`
+
+
+.. _credentials-management:
+
 
 
 Credentials management
