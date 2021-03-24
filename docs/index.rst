@@ -1,9 +1,9 @@
 .. _about-rackspace-server-virtualization:
 
 
-=====================================
-About Rackspace Server Virtualization
-=====================================
+============================================
+VMware® Server Virtualization Solution Guide
+============================================
 
 Rackspace Server Virtualization is a managed VMware® vSphere environment
 that enables you to offload the maintenance and monitoring of the
@@ -36,11 +36,11 @@ environment. This guide contains the following chapters:
 - :ref:`Appendix 1 licensing <appendix-1-licensing>`
 
 
-
 .. toctree::
    :maxdepth: 2
    :hidden:
-   
+
+   VMware® Server Virtualization Solution Guide <self>
    understanding-server-virtualization/index.rst
    vmware-server-virtualization-architecture-options/index.rst
    understanding-roles-and-responsibilities/index.rst
