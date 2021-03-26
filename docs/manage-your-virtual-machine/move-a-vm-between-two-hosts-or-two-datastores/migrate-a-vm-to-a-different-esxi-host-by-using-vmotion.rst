@@ -18,16 +18,16 @@ ESXi hosts in a cluster.
 
 .. image:: vsphere-cluster1.png
 
-**Important:**
+.. important::
 
-* DRS might already be balancing VM placement within the cluster based on
-  host workload and DRS rules. If DRS automatically balances VM placement,
-  do not request a vMotion.
-* If you vMotion a VM to another ESXi host when you have DRS in place,
-  you might reverse the vMotion migration or trigger a series of
-  subsequent vMotions.
-* If you think that the DRS algorithm is not optimal, open a
-  Rackspace Technology ticket and request a consultation.
+    * DRS might already be balancing VM placement within the cluster based on
+      host workload and DRS rules. If DRS automatically balances VM placement,
+      do not request a vMotion.
+    * If you vMotion a VM to another ESXi host when you have DRS in place,
+      you might reverse the vMotion migration or trigger a series of
+      subsequent vMotions.
+    * If you think that the DRS algorithm is not optimal, open a
+      Rackspace Technology ticket and request a consultation.
 
 Subject to a variety of conditions, you can complete vMotion either offline
 or online. At a minimum, both source and destination hosts must have access

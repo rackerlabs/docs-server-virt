@@ -17,5 +17,6 @@ information:
 * The name of the VM and the vNIC you want to change.
 * The type of vNIC you want to use.
   
-**Note:** When you make this request, plan for downtime.
+.. note:: 
+    When you make this request, plan for downtime.
 

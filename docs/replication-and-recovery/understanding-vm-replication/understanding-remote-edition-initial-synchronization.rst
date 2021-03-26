@@ -22,8 +22,9 @@ of the source VMs, the amount of data in its volumes, and the bandwidth
 between the sites. During this synchronization, you cannot perform
 any replication task, such as failover operations.
 
-**Note:** Initial synchronization can cause a spike in bandwidth usage
-and might result in bandwidth overage charges.
+.. note:: 
+    Initial synchronization can cause a spike in bandwidth usage
+    and might result in bandwidth overage charges.
 
 After synchronization completes, the VRA on the target site includes
 a complete copy of every VM in the VPG. At this time, the source VMs

@@ -1,7 +1,7 @@
 .. _understanding-server-virtualization:
 
 ===================================
-Understanding server virtualization
+Understanding Server Virtualization
 ===================================
 
 A virtual server runs inside a virtual machine (VM) instead of a physical

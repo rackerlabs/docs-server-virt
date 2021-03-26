@@ -16,4 +16,5 @@ and any configurations. Deleting a VM is permanent and irreversible.
 4.	Enter any Special Instructions to include in the support ticket.
 5.	Click **Request Deletion**. This action creates a ticket for your Rackspace VMware Support team to take action.
 
-        **Note:** You can also click the *cog* icon next to the VM on the **Virtual Machine** list to access the **Actions** drop-down menu.
+.. note:: 
+   You can also click the *cog* icon next to the VM on the **Virtual Machine** list to access the **Actions** drop-down menu.

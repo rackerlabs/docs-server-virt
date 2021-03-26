@@ -24,6 +24,6 @@ a Rackspace Technology ticket and provide the following information:
 * The number of virtual sockets you want to allocate to the VM.
 * The number of cores per socket you want to allocate to the VM.
 
-**Note:** This change requires system downtime.
-
+.. note::
+    This change requires system downtime.
 

@@ -21,5 +21,6 @@ We manage port groups for you, including:
 If you require us to take any of the preceding actions, open a
 Rackspace Technology ticket and indicate what action you want us to perform.
 
-**Note:** Some port group tasks might require a maintenance window.
+.. note:: 
+    Some port group tasks might require a maintenance window.
 

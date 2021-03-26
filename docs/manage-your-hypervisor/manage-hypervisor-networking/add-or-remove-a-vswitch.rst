@@ -14,5 +14,6 @@ groups, can use multiple uplinks and manage multiple port groups. Refer to
 To add or remove a vSwitch, open a Rackspace Technology ticket and
 request a consultation.
 
-**Note:** We cannot remove switches that we have pre-configured for you.
+.. note:: 
+    We cannot remove switches that we have pre-configured for you.
 

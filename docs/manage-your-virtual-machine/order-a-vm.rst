@@ -28,8 +28,10 @@ Before you begin, ensure that you are familiar with the following items:
 * If you require managed backup on the VM
 * The amount of vCPU and vRAM to allocate to the VM
 
-**Important:** If you are unsure which VM parameters to choose, open a
-ticket and request a consultation with us.
+.. important::
+    
+   If you are unsure which VM parameters to choose, open a
+   ticket and request a consultation with us.
 
 Complete the following steps to order a VM:
 
@@ -43,14 +45,14 @@ Complete the following steps to order a VM:
 
    a. Select a vCPU value. For more information about vCPU, see :ref:`understanding-vcpu`. You can change this value after the VM has been provisioned.
    b. Select a vRAM value. For more information about vRAM, see :ref:`understanding-vram`.
-   c. Select a network.
+   c. Select a network. The list contains networks that you have requested we create for you. We custom make these networks for your environment.
+      
+      For Windows OSs, select an Active Directory Domain.
 
-      The list contains networks that you have requested we create for you. We custom make these networks for your environment.
-
-      **Note:** If you are unsure of which network to select, consult your internal team or contact your Rackspace Technology account team.
-   d. For Windows OSs, select an Active Directory Domain.
-
-      **Note:** After you place the order, you cannot change your selection until we fulfill the order. If you are unsure of which domain to select, open a ticket and request a consultation.
+.. note::
+   If you are unsure of which network to select, consult your internal team or contact your Rackspace Technology account team.
+   After you place the order, you cannot change your selection until we fulfill the order. If you are unsure of which domain to
+   select, open a ticket and request a consultation.
 
 7. In the **Storage** section, complete the following steps:
 
@@ -66,7 +68,9 @@ Complete the following steps to order a VM:
       The virtual machine name must be 6 to 70 characters long. If you are creating a Windows-based VM, the hostname
       cannot be longer than 8 characters.
 
-      **Note:** The system automatically adds a 6- or 7-digit Rackspace device number prefix to the VM name.
+.. note::
+   The system automatically adds a 6- or 7-digit Rackspace device number prefix to the VM name.
+
 
 10. In the **Addon Services** section, in the Managed Backup field, select your desired option for backups.
 

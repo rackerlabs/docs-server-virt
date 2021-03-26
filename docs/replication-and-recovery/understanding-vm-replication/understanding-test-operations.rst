@@ -26,12 +26,13 @@ as ProdCRM, to represent your Production CRM application.
   you can select the checkpoint before the decommission because you have
   a seven-day journal full of checkpoints.
 
-  **Note:** The actual journal history size depends on the available
-  storage. Configuring longer journal history requires the storage
-  capacity to keep all changes for the desired period. The configured
-  target might not be met and journal checkpoints that have not met
-  the desired journal history target might be automatically deleted
-  if there is insufficient space.
+  .. note::
+    The actual journal history size depends on the available
+    storage. Configuring longer journal history requires the storage
+    capacity to keep all changes for the desired period. The configured
+    target might not be met and journal checkpoints that have not met
+    the desired journal history target might be automatically deleted
+    if there is insufficient space.
 
 * **Boot order:** The order in which the VMs contained within a VPG boot upon recovery. VMs boot in ascending order.
 

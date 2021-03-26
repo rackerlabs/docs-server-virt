@@ -19,8 +19,9 @@ Before resizing a virtual machine, note that over-allocating resources can
 negatively impact the performance of the VM and other VMs within your
 environment.
 
-**Caution:** Increasing vRAM consumes the same amount of datastore space which
-in rare cases, can lead to downtime.
+.. warning:: 
+   Increasing vRAM consumes the same amount of datastore space which
+   in rare cases, can lead to downtime.
 
 1. Log in to the Rackspace Technology Customer Portal and click **Products > VMware Server Virtualization**.
 2. On the list of virtual machines, select the virtual machine you want to resize.

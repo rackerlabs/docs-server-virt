@@ -48,14 +48,16 @@ This section includes the following topics:
    understanding-vm-replication-roles-and-responsibilities.rst
 
   
-**Note:** You cannot configure VMs that have one of the following
-characteristics for a source VM:
+.. note:: 
 
-* Active Directory VMs (We support and recommend Active Directory
-  native replication.)
-* VMs with raw device mappings (RDMs).
-* Multi-write disk mode.
-* Oracle clusters.
-* RHEL clusters.
+  You cannot configure VMs that have one of the following
+  characteristics for a source VM:
+
+    * Active Directory VMs (We support and recommend Active Directory
+      native replication.)
+    * VMs with raw device mappings (RDMs).
+    * Multi-write disk mode.
+    * Oracle clusters.
+    * RHEL clusters.
 
 

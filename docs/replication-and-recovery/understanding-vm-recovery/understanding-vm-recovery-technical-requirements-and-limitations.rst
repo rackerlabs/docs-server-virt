@@ -13,7 +13,8 @@ limitations:
 * Backup and restore times depend on the VM(s) size. VMs larger in size and smaller file counts experience a more extended backup and recovery time.
 * We use client-based data de-duplication in order to reduce backup times.
 
-**Note:** If your VMs do not meet these requirements, then consider
-VM Replication Local Edition as an option.
+.. note::
+    If your VMs do not meet these requirements, then consider
+    VM Replication Local Edition as an option.
 
 
