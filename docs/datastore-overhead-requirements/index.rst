@@ -19,8 +19,9 @@ Refer to the following minimum recommended datastore overhead values:
 * If VMs on the datastore use VM Replication or VM Recovery,
   the overhead is 15%.
 
-**Note:** If the datastore is subject to multiple criteria listed above,
-the criterion with the highest percentage takes priority.
+.. note::
+  If the datastore is subject to multiple criteria listed above,
+  the criterion with the highest percentage takes priority.
 
 
 

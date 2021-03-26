@@ -23,6 +23,7 @@ Rackspace Technology ticket that includes the following information:
 * The name of the VM and the vNIC you want to change.
 * The name of the port group to which you want to associate the vNIC.
    
-**Note:** When changing the association between a vNIC and a port group,
-we must change IPs, which can result in downtime.
+.. note:: 
+    When changing the association between a vNIC and a port group,
+    we must change IPs, which can result in downtime.
 

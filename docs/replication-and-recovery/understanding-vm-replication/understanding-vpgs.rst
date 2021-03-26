@@ -23,7 +23,8 @@ For example, for your production application, which comprises a database,
 application, and web server, you can group VMs into a single VPG to ensure
 write-order fidelity across all three tiers.
 
-**Note:** All the VMs in a VPG must reside in the same VMware vCenter.
+.. note::
+   All the VMs in a VPG must reside in the same VMware vCenter.
 
 **VPG Properties**
 

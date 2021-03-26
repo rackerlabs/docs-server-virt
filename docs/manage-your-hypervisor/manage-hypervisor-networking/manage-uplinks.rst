@@ -21,7 +21,8 @@ We manage your uplinks for you, including:
 If you require us to take any of the preceding actions, open a
 Rackspace Technology ticket and indicate what action you want us to perform.
 
-**Note:** Some uplink tasks might require a maintenance window.
+.. note:: 
+  Some uplink tasks might require a maintenance window.
 
 
 

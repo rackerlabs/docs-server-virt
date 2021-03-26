@@ -19,16 +19,18 @@ in unexpected downtime. Monitor the free space on your datastores and
 delete all unneeded snapshots.
 
 
-**Caution:** As snapshot files grow, it can affect all virtual machines
-on the hypervisor. For this reason, we recommend keeping a snapshot for
-no longer than two days.
+.. caution::
+    As snapshot files grow, it can affect all virtual machines
+    on the hypervisor. For this reason, we recommend keeping a snapshot for
+    no longer than two days.
+    
+    Depending on the circumstances, you can delete snapshots within hours
+    or days after being taken. When you delete the snapshot, the changes
+    stored in the delta files are merged back onto the original vDisks.
+    This operation can take a long time. You can also revert (roll back)
+    to a snapshot, in which case the changes in the delta files are discarded.
 
-Depending on the circumstances, you can delete snapshots within hours
-or days after being taken. When you delete the snapshot, the changes
-stored in the delta files are merged back onto the original vDisks.
-This operation can take a long time. You can also revert (roll back)
-to a snapshot, in which case the changes in the delta files are discarded.
 
-
-**Note:** Do not use a snapshot as a VM backup. VM replication is a
-better alternative for making and restoring backups.
+.. note:: 
+    Do not use a snapshot as a VM backup. VM replication is a
+    better alternative for making and restoring backups.

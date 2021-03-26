@@ -31,8 +31,9 @@ any checkpoint within the previous seven days. After the time specified,
 the system updates the mirror virtual disk volumes (VMDK) maintained
 by the Zerto VRA.
 
-**Note:** Initial synchronization can cause a spike in bandwidth usage
-and might result in bandwidth overage charges.
+.. note:: 
+    Initial synchronization can cause a spike in bandwidth usage
+    and might result in bandwidth overage charges.
 
 The following image illustrates continuous data replication:
 

@@ -13,8 +13,9 @@ See :ref:`migrate-a-workload-to-vmware-server-virtualization` for
 more information about migrating a workload from another environment
 to Server Virtualization.
 
-**Note:** Don’t use vMotion to migrate external workloads to
-Server Virtualization or migrate a VM from RPC-V to Server Virtualization.
+.. note::
+    Don’t use vMotion to migrate external workloads to
+    Server Virtualization or migrate a VM from RPC-V to Server Virtualization.
 
 The other form of migration refers to the methods by which VMs are migrated
 from one host or datastore to another host or datastore within the
