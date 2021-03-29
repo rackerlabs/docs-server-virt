@@ -63,3 +63,4 @@ We require datastore overhead for the following reasons:
 
 * VM Recovery requires additional space because the VM takes snapshots
   frequently, potentially on multiple VMs at the same time.
+
