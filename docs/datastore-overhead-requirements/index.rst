@@ -12,12 +12,12 @@ on the total capacity of each datastore.
 
 Refer to the following minimum recommended datastore overhead values:
 
-* For datastores with capacity up to 2048 GB, the overhead is 15%.
+* For datastores with capacity up to 2048 GB, the overhead is **15%**.
 * For datastores with capacity between 2049 GB and 4096 GB,
-  the overhead is 10%.
-* For datastores with capacity greater than 4096 GB, the overhead is 7%.
-* Where any VMs in the vSphere Cluster are being backed up with VM Recovery and/or replicated
-  with VM Replication (Zerto), the overhead is 15 % for all datastores in that cluster. 
+  the overhead is **10%**.
+* For datastores with capacity greater than 4096 GB, the overhead is **7%**.
+* **However:** Where any VMs in the vSphere Cluster are being backed up with VM Recovery and/or replicated
+  with VM Replication (Zerto), the overhead is **15%** for all datastores in that cluster. 
   This is regardless whether the backed up or replicated VMs reside on that particular datastore.
 
 .. note::
