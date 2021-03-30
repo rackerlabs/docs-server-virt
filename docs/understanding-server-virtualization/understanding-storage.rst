@@ -9,8 +9,8 @@ Understanding storage
 This section explains the following storage concepts that are important to
 understand when you use VMware Server Virtualization.
 
-* **Logical Unit Number (LUN):** A LUN identifies a storage device. In the context of VMware, a LUN provides a foundation for a VMware filesystem (VMFS) datastore, or you can use it as an **Error!**
-* **Reference source not found.**
+* **Logical Unit Number (LUN):** A LUN identifies a storage device. In the context of VMware, a LUN provides a foundation for a VMware filesystem (VMFS) datastore, or you can use it as an RDM (Raw Device Mapping)
+
 * **Datastore:** A datastore is a volume formatted with a VMFS. You can create a VMFS datastore on top of a LUN or on a local RAID array. A VMFS datastore contains log files or files that comprise VMs.
 
 * **vDisk:** A vDisk is a virtual disk. A Guest OS in the VM uses a vDisk in the same way it would use a physical disk but represents the vDisk as a **.vmdk** file on a VMFS datastore.
