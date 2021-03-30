@@ -16,10 +16,6 @@ automated action, or because you requested it. See :ref:`migrate-a-vm-to-a-diffe
 
 * **vMotion without Shared Storage:** vMotion without Shared Storage combines vMotion and storage vMotion. vMotion without Shared Storage is most commonly used for migration between two standalone hypervisors. See :ref:`migrate-by-using-vmotion-without-shared-storage` for more information.
 
-* **Initial migration that occurs when you become a Rackspace Technology customer**
-and migrate an existing workload to Server Virtualization.
-See :ref:`migrate-a-workload-to-vmware-server-virtualization` for
-more information about migrating a workload from another environment
-to Server Virtualization.
+* **Initial migration that occurs when you become a Rackspace Technology customer** and migrate an existing workload to Server Virtualization. See :ref:`migrate-a-workload-to-vmware-server-virtualization` for more information about migrating a workload from another environment to Server Virtualization.
 
 
