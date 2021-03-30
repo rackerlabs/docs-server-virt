@@ -3,7 +3,7 @@
 
 
 =======================
-Add Ram to a hypervisor
+Add RAM to a hypervisor
 =======================
 
 
