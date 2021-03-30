@@ -6,50 +6,15 @@
 Understanding test operations
 =============================
 
+We recommend that you periodically test the replication capabilities to ensure that the replication is working as expected. To begin planning a test, open a ticket with Rackspace Technology. During a test, the target VMs are powered on.
 
-You can replace the VM value in the VPG name with a customer-defined name.
-Defining the appendix helps you identify the contents of the VPG.
+You have the following networking options for VMs that are tested on the secondary site. These options are pre-defined in the VPG settings:
 
-For example, if you group VMs by customers, use the customer name or ID.
-If you group VMs by application or workload, use a descriptor, such
-as ProdCRM, to represent your Production CRM application.
+*	**Use live production target site networks:** By default, live recovery networks are used. If the VMs are configured to use live networks, you might be able to access them, but it might also be required to temporarily suspend site-to-site VPN, depending on the configuration. This are the same networks that are used during a true failover. 
 
-* **Journal history days:** The target length of time you can roll back VMs
-  within a VPG upon recovery.
+If you want to use one of the following options, open a Rackspace Technology ticket.
 
-  By default, each VM has a value of seven days. Setting the Zerto Journal
-  History to seven days provides the ability to specify a recovery
-  point-in-time within the last seven days.
+*	**Use dedicated testing networks with limited connectivity:** This option shares some elements of the live production target site networks and the bubble networks. Separate testing networks are set up that allow you to access the VMs, but the VMs have limited outside connectivity. You can work with us to define the connectivity rules.
 
-  For example, if you accidentally decommission the wrong VMs and need to
-  recover the VMs, but it takes you five days to identify the mistake,
-  you can select the checkpoint before the decommission because you have
-  a seven-day journal full of checkpoints.
-
-  .. note::
-    The actual journal history size depends on the available
-    storage. Configuring longer journal history requires the storage
-    capacity to keep all changes for the desired period. The configured
-    target might not be met and journal checkpoints that have not met
-    the desired journal history target might be automatically deleted
-    if there is insufficient space.
-
-* **Boot order:** The order in which the VMs contained within a VPG boot upon recovery. VMs boot in ascending order.
-
-  For example, if the VPG includes a database, application tier,
-  and web server tier and the database must be available before
-  the application tier or web server, you can set the database boot order
-  to 1, application tier to 2, and web server to 3.
-
-* **Use bubble network:** If the VMs are configured to use a
-  bubble network, you can’t access them. However, we verify via console
-  if the OS has booted up successfully. A bubble network is an isolated
-  network which isn’t connected to any other network.
-
-During the test, the source site continues to run normally, and any
-changes you make on the target site are discarded at the end of the test.
-If you prefer to shut down the source VMs and run the VMs on the secondary
-site, consider a planned failover instead.
-
-
-
+*	**Use bubble network:** If the VMs are configured to use a bubble network, you won’t be able to access them. However, we verify via console if the OS has booted up successfully. A bubble network is an isolated network which isn’t connected to any other network.
+During the test, the source site continues to run normally, and any changes you make on the target site are discarded at the end of the test. If instead you want to shut down the source VMs and run the VMs on the secondary site, consider planned failover instead.

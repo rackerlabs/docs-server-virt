@@ -7,8 +7,7 @@ Configure high availability
 
 
 
-High availability (HA) is a feature that ensures system uptime to an
-agreed-upon level.
+
 
 VMware vSphere® High Availability monitors the ESXi host status, and
 when a host fails, the vSphere HA feature automatically restarts

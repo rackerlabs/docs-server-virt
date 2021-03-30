@@ -2,7 +2,7 @@
 
 
 ====================
-Set vRam reservation
+Set vRAM reservation
 ====================
 
 An application vendor might recommend that you reserve RAM resources if
