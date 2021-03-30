@@ -3,7 +3,7 @@
 
 
 ==================
-Understanding vRam
+Understanding vRAM
 ==================
 
 You can allocate physical RAM on the hypervisor to the VMs as
