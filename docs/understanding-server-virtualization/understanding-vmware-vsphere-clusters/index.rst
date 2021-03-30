@@ -11,12 +11,12 @@ that draws resources from one hypervisor at a time. All cluster members
 have either identical, or, in some cases similar, configurations.
 
 By default, and to further benefit from the clustered setup, Rackspace
-Technology enables a Distributed Resource Scheduler and high availability.
+Technology enables a Distributed Resource Scheduler and High Availability.
 
 This section includes the following topics:
 
-- :ref:`Distributed resource scheduler <distributed-resource-scheduler>`
-- :ref:`High availability  <high-availability>`
+- :ref:`Distributed Resource Scheduler <distributed-resource-scheduler>`
+- :ref:`High Availability  <high-availability>`
 
 
 .. toctree::
