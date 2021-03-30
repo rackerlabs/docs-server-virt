@@ -17,7 +17,7 @@ the snapshot does not include the memory. Otherwise, the VM continues
 to run.
 
 .. note:: 
-   You cannot reverse a revert snapshot action.
+   You cannot reverse a *revert snapshot* action.
    
 1. Log in to the Rackspace Technology Customer Portal and click **Products > VMware Server Virtualization**.
 2. On the list of virtual machines, select the virtual machine for which you want to revert a snapshot.
