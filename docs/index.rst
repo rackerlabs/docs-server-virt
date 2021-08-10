@@ -1,55 +1,55 @@
-.. _about-rackspace-server-virtualization:
+.. _amr:
 
 
-============================================
-VMware® Server Virtualization Solution Guide
-============================================
+=================================================
+Advanced Monitoring and Resolution Solution Guide
+=================================================
 
-Rackspace Server Virtualization is a managed VMware® vSphere environment
-that enables you to offload the maintenance and monitoring of the
-infrastructure, VMware stack, and guest operating system layer to a
-Rackspace Technology team of VMware Certified Professionals who are experts
-in storage, networking, and infrastructure.
+Rackspace Technology Advanced Monitoring and Resolution (AMR) provides
+real-time monitoring and alerting for your cloud environment. An expert team
+of operations engineers monitors and responds to any alerts in your
+environment. Rackspace Technology has the breadth of knowledge required to
+operate the most complex cloud deployments on a global scale. Combined
+with the Rackspace Elastic Engineering service, you'll gain the peace of mind
+that comes with having an environment that's cared for by a team of
+cloud-certified operations engineers that help drive continuous
+innovation.
 
-Rackspace VMware Server Virtualization runs on VMware vSphere,
-which allows you to consolidate the hardware requirements for higher
-capacity utilization and benefit from greater efficiency. You can also
-take advantage of features not available in traditional environments such
-as snapshots, vMotion and Storage vMotion, quicker workload provisioning,
-and less impactful hardware maintenance processes.
+The AMR service includes the following features:
 
-This Solution Guide provides conceptual information and procedural
-instructions you can use to manage your VMware Server Virtualization
-environment. This guide contains the following chapters:
+- Opinionated deployment of cloud services monitoring using known best
+  practices
+- 24x7x365 monitoring coverage backed by cloud experts
+- Improved resolution timelines by leveraging Rackspace Technology automation
+- Guidance for a default list of alerts and thresholds, which can be
+  customized to meet your needs
+- Ongoing support to adjust monitoring as your environment grows
 
-- :ref:`Understanding Server Virtualization <understanding-server-virtualization>`
-- :ref:`VMware Server Virtualization architecture options <vmware-server-virtualization-architecture-options>`
-- :ref:`Understanding roles and responsibilities <understanding-roles-and-responsibilities>`
-- :ref:`Datastore overhead requirements <datastore-overhead-requirements>`
-- :ref:`Migrate a workload to VMware Server Virtualization <migrate-a-workload-to-vmware-server-virtualization>`
-- :ref:`Log in to the Rackspace Technology Customer Portal <log-in-to-the-rackspace-technology-customer-portal>`
-- :ref:`Manage Rackspace Technology Customer Portal users <manage-rackspace-technology-customer-portal-users>`
-- :ref:`Manage your virtual machine <manage-your-virtual-machine>`
-- :ref:`Manage your hypervisor <manage-your-hypervisor>`
-- :ref:`Replication and recovery <replication-and-recovery>`
-- :ref:`Maintain your environment <maintain-your-environment>`
-- :ref:`Appendix 1 licensing <appendix-1-licensing>`
+For more information about the Rackspace Engineering service, see the
+`product page <https://www.rackspace.com/solutions/elastic-engineering>`_.
+
+For information about subscribing to the AMR service, contact the
+`Rackspace Sales team <https://www.rackspace.com/contact>`_.
+
+
+This guide contains the following sections:
+
+- :ref:`overview`
+- :ref:`external_tools`
+- :ref:`tool_configuration`
+- :ref:`access_watchman_api`
+- :ref:`troubleshooting`
+
+
 
 
 .. toctree::
    :maxdepth: 2
    :hidden:
 
-   VMware® Server Virtualization Solution Guide <self>
-   understanding-server-virtualization/index.rst
-   vmware-server-virtualization-architecture-options/index.rst
-   understanding-roles-and-responsibilities/index.rst
-   datastore-overhead-requirements/index.rst
-   migrate-a-workload-to-vmware-server-virtualization/index.rst
-   log-in-to-the-rackspace-technology-customer-portal/index.rst
-   manage-rackspace-technology-customer-portal-users/index.rst
-   manage-your-virtual-machine/index.rst
-   manage-your-hypervisor/index.rst
-   replication-and-recovery/index.rst
-   maintain-your-environment/index.rst
-   appendix-1-licensing.rst
+   Advanced Monitoring and Resolution Solution Guide <self>
+   overview.rst
+   external-tools.rst
+   configure-tools.rst
+   access-watchman-api.rst
+   troubleshooting.rst
