@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-RACKSPACE TECHNOLOGY ADVANCED MONITORING AND RESOLUTION build configuration file.
+RACKSPACE TECHNOLOGY SERVER VIRTUALIZATION SOLUTION GUIDE build configuration file.
 
 This file is execfile()d with the current directory set to its
 containing dir.
@@ -101,7 +101,7 @@ linkcheck_ignore = ['https://pages.github.rackspace.com*',
 linkcheck_anchors = False
 
 # General information about the project.
-project = 'Rackspace Technology Advanced Monitoring and Resolution Solution Guide'
+project = 'Rackspace Technology Server Virtualization Solution Guide'
 copyright = '2021, Rackspace Technology'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -118,7 +118,7 @@ release = "1.0"
 # Global variables that are replaced by the specified value during the build
 # process.
 rst_epilog = """
-.. |service| replace:: RACKSPACE TECHNOLOGY ADVANCED MONITORING AND RESOLUTION SOLUTION GUIDE
+.. |service| replace:: RACKSPACE TECHNOLOGY SERVER VIRTUALIZATION SOLUTION GUIDE
 """
 
 # sphinxcontrib-versioning options
@@ -211,7 +211,7 @@ else:
 # documentation.
 html_theme_options = {
     "collapse_navigation" : False,
-    "sticky_navigation": True,
+    "sticky_navigation": True, 
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
@@ -224,7 +224,7 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 # html_short_title = None
-html_short_title = 'Rackspace Technology AMR Solution Guide'
+html_short_title = 'Rackspace Technology Server Virtualization Solution Guide'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
@@ -299,6 +299,6 @@ html_style = 'css/styles.css'
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Rackspace Technology AMR Solution Guide'
+htmlhelp_basename = 'Rackspace Technology Server Virtualization Solution Guide'
 # this will change the 'paragraph' character to '#'
 html_add_permalinks = '#'
