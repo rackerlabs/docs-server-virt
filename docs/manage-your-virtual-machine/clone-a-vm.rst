@@ -23,9 +23,11 @@ Complete the following steps to order a VM:
 1. Log in to the `Rackspace Customer Portal <https://login.rackspace.com/>`_
 2. In the **Products drop-down** menu, select **VMware Server Virtualization.**
 3. Find the virtual machine you wish to clone, and then perform one of the following:
+
    * Click the cog next to the VM, then select **Clone VM...**, enter the desired name and the number of requested instances.
    * Select the chechbox next to the VM, then click the **Clone Selected** button above the list. On the next page, enter the desired name and the number of requested instances.
    * Click the VM name, and on the page that opens, **Clone VM..** from the **Actions** drop-down menu, enter the desired name and the number of requested instances.
+
 4. Accept the terms and then click **Order Virtual Machine** or **Order Virtual Machines**. If the button is greyed out, there is a problem with the current selection. For example, you might have insufficient resources or a compatibility issue. Review your options and try selecting another option or speak to the Virtualization team for assistance.
 
     Placing an order sends a ticket to your Rackspace VMware Support team specialist. To track the progress of your order, see :ref:`track-a-vm-order`.
