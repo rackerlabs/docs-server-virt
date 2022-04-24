@@ -20,6 +20,7 @@ This chapter contains the following sections:
 
 
 - :ref:`Order a VM <order-a-vm>`
+- :ref:`Clone a VM <clone-a-vm>`
 - :ref:`Track a VM order <track-a-vm-order>`
 - :ref:`Delete a VM <delete-a-vm>`
 - :ref:`Power a VM on and off <power-a-vm-on-and-off>`
@@ -43,6 +44,7 @@ This chapter contains the following sections:
   :hidden:
 
   order-a-vm.rst
+  clone-a-vm
   track-a-vm-order.rst
   delete-a-vm.rst
   power-a-vm-on-and-off.rst
